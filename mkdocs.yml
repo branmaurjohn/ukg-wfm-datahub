@@ -7,7 +7,6 @@ nav:
   - Home: index.md
   - Getting Started:
       - Quickstart: getting-started/quickstart.md
-  - Report Catalog: report-catalog.md
   - Concepts:
       - Public Safety Rules: concepts/public-safety.md
       - Grain and Keys: concepts/grain-and-keys.md
@@ -17,6 +16,7 @@ nav:
       - Redaction Policy: concepts/redaction-policy.md
   - Runbooks:
       - Entity Generation: runbooks/entity-generation.md
+  - Report Catalog: report-catalog.md
   - Patterns:
       - Partition Filters: patterns/partition-filters.md
       - Join Safety: patterns/join-safety.md
