@@ -7,3 +7,5 @@ nav:
   - Home: index.md
   - Getting Started:
       - Quickstart: getting-started/quickstart.md
+  - Concepts:
+      - Public Safety Rules: concepts/public-safety.md

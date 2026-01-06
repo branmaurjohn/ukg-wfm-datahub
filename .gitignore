@@ -1,0 +1,12 @@
+# Local/temporary
+site/
+.venv/
+venv/
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+
+# IMPORTANT: keep raw dictionaries out of a public repo
+data/
+exports/
