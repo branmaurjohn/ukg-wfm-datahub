@@ -1,0 +1,2552 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.1">
+    
+    
+      
+        <title>Datasets - UKG Pro WFM Data Hub</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#datasets" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="UKG Pro WFM Data Hub" class="md-header__button md-logo" aria-label="UKG Pro WFM Data Hub" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            UKG Pro WFM Data Hub
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Datasets
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="UKG Pro WFM Data Hub" class="md-nav__button md-logo" aria-label="UKG Pro WFM Data Hub" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    UKG Pro WFM Data Hub
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Getting Started
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Getting Started
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../getting-started/quickstart/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Quickstart
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Concepts
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Concepts
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../concepts/public-safety/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Public Safety Rules
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../concepts/grain-and-keys/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Grain and Keys
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../concepts/detail-vs-summary/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Detail vs Summary
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../concepts/worked-vs-home-org/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Worked vs Home Org
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../concepts/date-logic/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Date Logic
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../concepts/redaction-policy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Redaction Policy
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Runbooks
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Runbooks
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../runbooks/entity-generation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entity Generation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../report-catalog/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Report Catalog
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Patterns
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Patterns
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../patterns/partition-filters/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Partition Filters
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../patterns/join-safety/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Join Safety
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../patterns/validation-checklist/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Validation Checklist
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Domains
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Domains
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../domains/overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../domains/people/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    People
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../domains/org-structure/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Org Structure
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../domains/timecard/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Timecard
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../domains/schedule/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Schedule
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../domains/totals/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Totals
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../domains/accruals/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Accruals
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../domains/ess/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ESS / Workflow
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../domains/forecasting/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Forecasting
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entities
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Entities
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../entities/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Index
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" >
+        
+          
+          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Use Cases
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Use Cases
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../use-cases/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Index
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../use-cases/overtime-utilization/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overtime Utilization
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../use-cases/schedule-vs-worked/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Schedule vs Worked Variance
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../use-cases/approval-cycle-time/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Approval Cycle Time
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../use-cases/accrual-health/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Accrual Health Monitor
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../use-cases/punch-investigation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Punch Investigation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10" >
+        
+          
+          <label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Roles
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Roles
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../roles/analyst/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Analyst
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../roles/engineer/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Engineer
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../roles/architect/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Architect
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../roles/data-scientist/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Data Scientist
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_11" >
+        
+          
+          <label class="md-nav__link" for="__nav_11" id="__nav_11_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Templates
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_11_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_11">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Templates
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../templates/kpi-contract/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    KPI Contract
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../templates/report-spec/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Report Spec
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../templates/dataset-spec/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Dataset Spec
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#browse-by-section" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Browse by section
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Browse by section">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#detail-dataset-accrual-detail-views" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Detail Dataset → Accrual Detail Views
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#detail-dataset-assignment-detail-views" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Detail Dataset → Assignment Detail Views
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#detail-dataset-audit-detail-views" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Detail Dataset → Audit Detail Views
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#detail-dataset-budget-detail-views" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Detail Dataset → Budget Detail Views
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#detail-dataset-change-data-capture-views" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Detail Dataset → Change Data Capture Views
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#detail-dataset-data-detail-validation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Detail Dataset → Data Detail Validation
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#detail-dataset-datetime-detail-views" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Detail Dataset → Date/Time Detail Views
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#detail-dataset-device-detail-views" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Detail Dataset → Device Detail Views
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#detail-dataset-employee-self-service-detail-views" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Detail Dataset → Employee Self Service Detail Views
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#detail-dataset-forecasting-detail-views" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Detail Dataset → Forecasting Detail Views
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#detail-dataset-healthcare-productivity" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Detail Dataset → Healthcare Productivity
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#detail-dataset-hours-of-operations-views" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Detail Dataset → Hours of Operations Views
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#detail-dataset-multicurrency-views" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Detail Dataset → Multicurrency Views
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#detail-dataset-org-structure-detail-views" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Detail Dataset → Org Structure Detail Views
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#detail-dataset-pay-codeperiod-detail-views" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Detail Dataset → Pay Code/Period Detail Views
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#detail-dataset-people-detail-views" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Detail Dataset → People Detail Views
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#detail-dataset-pipeline-configuration-not-for-reporting" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Detail Dataset → Pipeline configuration (Not for reporting)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#detail-dataset-schedule-detail-views" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Detail Dataset → Schedule Detail Views
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#detail-dataset-schedule-post-detail-views" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Detail Dataset → Schedule Post Detail Views
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#detail-dataset-timecard-detail-views" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Detail Dataset → Timecard Detail Views
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#detail-dataset-timekeeping-setup" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Detail Dataset → Timekeeping Setup
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#detail-dataset-totals-detail-views" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Detail Dataset → Totals Detail Views
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#detail-dataset-workload-planner" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Detail Dataset → Workload Planner
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#summary-dataset-age-attributes-age" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Summary Dataset → Age Attributes (Age)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#summary-dataset-dimension-views" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Summary Dataset → Dimension Views
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#summary-dataset-healthcare-productivity-summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Summary Dataset → Healthcare Productivity Summary
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#summary-dataset-metricsintra-vkronosintrasummary" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Summary Dataset → metricsIntra (vKronosIntraSummary)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#summary-dataset-pay-period-attributes-pp" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Summary Dataset → Pay Period Attributes (PP)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#summary-dataset-summary-staging-views-not-for-reporting" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Summary Dataset → Summary Staging Views (not for reporting)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#summary-dataset-traffic-pattern-volume-forecast-m_trafpatvolfcst" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Summary Dataset → Traffic Pattern Volume Forecast (M_TrafPatVolFcst)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#summary-dataset-transactional-views" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Summary Dataset → Transactional Views
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#summary-dataset-volume-forecast-metrics-m_volfcst" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Summary Dataset → Volume Forecast Metrics (M_Volfcst)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="datasets">Datasets</h1>
+<p>This index is generated from the Data Hub Data Dictionary Excel.</p>
+<h2 id="browse-by-section">Browse by section</h2>
+<h3 id="detail-dataset-accrual-detail-views">Detail Dataset → Accrual Detail Views</h3>
+<ul>
+<li><a href="vaccrualbalance/">vAccrualBalance</a></li>
+<li><a href="vaccrualbalancebyinterval/">vAccrualBalanceByInterval</a></li>
+<li><a href="vaccrualbalancerptgperdcurr/">vAccrualBalanceRptgPerdCurr</a></li>
+<li><a href="vaccrualcodes/">vAccrualCodes</a></li>
+<li><a href="vaccrualtransaction/">vAccrualTransaction</a></li>
+</ul>
+<h3 id="detail-dataset-assignment-detail-views">Detail Dataset → Assignment Detail Views</h3>
+<ul>
+<li><a href="vassignmentaccrualprofiles/">vAssignmentAccrualProfiles</a></li>
+<li><a href="vassignmentcustomdataentries/">vAssignmentCustomDataEntries</a></li>
+<li><a href="vassignmentcustomdatesentries/">vAssignmentCustomDatesEntries</a></li>
+<li><a href="vassignmentdetails/">vAssignmentDetails</a></li>
+<li><a href="vassignmentemploymentterms/">vAssignmentEmploymentTerms</a></li>
+<li><a href="vassignmentfulltimeequivalencies/">vAssignmentFullTimeEquivalencies</a></li>
+<li><a href="vassignmenthrpositioncodes/">vAssignmentHrPositionCodes</a></li>
+<li><a href="vassignmentjobtransfers/">vAssignmentJobTransfers</a></li>
+<li><a href="vassignmentlaboraccounts/">vAssignmentLaborAccounts</a></li>
+<li><a href="vassignmentorders/">vAssignmentOrders</a></li>
+<li><a href="vassignmentpayfromschedules/">vAssignmentPayFromSchedules</a></li>
+<li><a href="vassignmentschedulegroups/">vAssignmentScheduleGroups</a></li>
+<li><a href="vassignmentstatus/">vAssignmentStatus</a></li>
+</ul>
+<h3 id="detail-dataset-audit-detail-views">Detail Dataset → Audit Detail Views</h3>
+<ul>
+<li><a href="vscheduleauditpaycodeeditaudits/">vScheduleAuditPayCodeEditAudits</a></li>
+<li><a href="vscheduleauditpaycodeeditauditscomments/">vScheduleAuditPayCodeEditAuditsComments</a></li>
+<li><a href="vscheduleauditpaycodeeditauditscoveragespan/">vScheduleAuditPayCodeEditAuditsCoverageSpan</a></li>
+<li><a href="vscheduleauditpaycodeeditauditspaycodeeditrelations/">vScheduleAuditPayCodeEditAuditsPayCodeEditRelations</a></li>
+<li><a href="vscheduleauditpaycodeeditauditsrelations/">vScheduleAuditPayCodeEditAuditsRelations</a></li>
+<li><a href="vscheduleauditshiftaudits/">vScheduleAuditShiftAudits</a></li>
+<li><a href="vscheduleauditshiftauditscomments/">vScheduleAuditShiftAuditsComments</a></li>
+<li><a href="vscheduleauditshiftauditscoveragespan/">vScheduleAuditShiftAuditsCoverageSpan</a></li>
+<li><a href="vscheduleauditshiftauditsrelation/">vScheduleAuditShiftAuditsRelation</a></li>
+<li><a href="vscheduleauditshiftauditssegments/">vScheduleAuditShiftAuditsSegments</a></li>
+<li><a href="vscheduleauditshiftauditssegmentskillcertprofile/">vScheduleAuditShiftAuditsSegmentSkillCertProfile</a></li>
+<li><a href="vscheduleauditshiftauditssegmenttag/">vScheduleAuditShiftAuditsSegmentTag</a></li>
+<li><a href="vtimecardaudit/">vTimecardAudit</a></li>
+</ul>
+<h3 id="detail-dataset-budget-detail-views">Detail Dataset → Budget Detail Views</h3>
+<ul>
+<li><a href="vlaborbudget/">vLaborBudget</a></li>
+<li><a href="vvolumebudget/">vVolumeBudget</a></li>
+</ul>
+<h3 id="detail-dataset-change-data-capture-views">Detail Dataset → Change Data Capture Views</h3>
+<ul>
+<li><a href="vcdc_accrualbalance/">vCdc_accrualBalance</a></li>
+</ul>
+<h3 id="detail-dataset-data-detail-validation">Detail Dataset → Data Detail Validation</h3>
+<ul>
+<li><a href="vdtllaborforecastbymonth/">vDtlLaborForecastByMonth</a></li>
+<li><a href="vdtllaborforecastbyrow/">vDtlLaborForecastByRow</a></li>
+<li><a href="vdtlscheduledtotalbymonth/">vDtlScheduledTotalByMonth</a></li>
+<li><a href="vdtlscheduledtotalbyrow/">vDtlScheduledTotalByRow</a></li>
+<li><a href="vdtltimecardtotalbymonth/">vDtlTimecardTotalByMonth</a></li>
+<li><a href="vdtltimecardtotalbyrow/">vDtlTimecardTotalByRow</a></li>
+<li><a href="vsmryscheduledtotalbymonth/">vSmryScheduledTotalByMonth</a></li>
+<li><a href="vsmryscheduledtotalbyrow/">vSmryScheduledTotalByRow</a></li>
+<li><a href="vsmrytimecardtotalbymonth/">vSmryTimecardTotalByMonth</a></li>
+<li><a href="vsmrytimecardtotalbyrow/">vSmryTimecardTotalByRow</a></li>
+<li><a href="vvallaborforecast/">vValLaborForecast</a></li>
+<li><a href="vvalscheduledtotal/">vValScheduledTotal</a></li>
+<li><a href="vvaltimecardtotal/">vValTimecardTotal</a></li>
+</ul>
+<h3 id="detail-dataset-datetime-detail-views">Detail Dataset → Date/Time Detail Views</h3>
+<ul>
+<li><a href="vcalendardate/">vCalendarDate</a></li>
+<li><a href="vfiscalcalendar/">vFiscalCalendar</a></li>
+</ul>
+<h3 id="detail-dataset-device-detail-views">Detail Dataset → Device Detail Views</h3>
+<ul>
+<li><a href="vdevicedetails/">vDeviceDetails</a></li>
+</ul>
+<h3 id="detail-dataset-employee-self-service-detail-views">Detail Dataset → Employee Self Service Detail Views</h3>
+<ul>
+<li><a href="vcurrencypolicy/">vCurrencyPolicy</a></li>
+<li><a href="vessavailability/">vEssAvailability</a></li>
+<li><a href="vessavailabilitycomment/">vEssAvailabilityComment</a></li>
+<li><a href="vessavailabilitysegment/">vEssAvailabilitySegment</a></li>
+<li><a href="vessavailabilitystatuschange/">vEssAvailabilityStatusChange</a></li>
+<li><a href="vessopenshift/">vEssOpenShift</a></li>
+<li><a href="vessopenshiftcomment/">vEssOpenShiftComment</a></li>
+<li><a href="vessopenshiftstatuschange/">vEssOpenShiftStatusChange</a></li>
+<li><a href="vessselfschedule/">vEssSelfSchedule</a></li>
+<li><a href="vessselfschedulecomment/">vEssSelfScheduleComment</a></li>
+<li><a href="vessselfschedulerequestperiod/">vEssSelfScheduleRequestPeriod</a></li>
+<li><a href="vessselfschedulestatuschange/">vEssSelfScheduleStatusChange</a></li>
+<li><a href="vessshiftcover/">vEssShiftCover</a></li>
+<li><a href="vessshiftcovercomment/">vEssShiftCoverComment</a></li>
+<li><a href="vessshiftcoverstatuschange/">vEssShiftCoverStatusChange</a></li>
+<li><a href="vessshiftswap/">vEssShiftSwap</a></li>
+<li><a href="vessshiftswapcomment/">vEssShiftSwapComment</a></li>
+<li><a href="vessshiftswapstatuschange/">vEssShiftSwapStatusChange</a></li>
+<li><a href="vesstimeoff/">vEssTimeOff</a></li>
+<li><a href="vesstimeoffapprovalhistory/">vEssTimeOffApprovalHistory</a></li>
+<li><a href="vesstimeoffapprovalperiod/">vEssTimeOffApprovalPeriod</a></li>
+<li><a href="vesstimeoffcomment/">vEssTimeOffComment</a></li>
+<li><a href="vesstimeoffrequestperiod/">vEssTimeOffRequestPeriod</a></li>
+<li><a href="vesstimeoffreviewer/">vEssTimeOffReviewer</a></li>
+<li><a href="vesstimeoffstatuschange/">vEssTimeOffStatusChange</a></li>
+</ul>
+<h3 id="detail-dataset-forecasting-detail-views">Detail Dataset → Forecasting Detail Views</h3>
+<ul>
+<li><a href="vactualvolume/">vActualVolume</a></li>
+<li><a href="vactualvolumeintra/">vActualVolumeIntra</a></li>
+<li><a href="vcustomdriverassignment/">vCustomDriverAssignment</a></li>
+<li><a href="vcustomdrivermapping/">vCustomDriverMapping</a></li>
+<li><a href="vcustomdrivervalues/">vCustomDriverValues</a></li>
+<li><a href="vforecastjobs/">vForecastJobs</a></li>
+<li><a href="vforecastweeks/">vForecastWeeks</a></li>
+<li><a href="vlaborforecast/">vLaborForecast</a></li>
+<li><a href="vlaborforecastintra/">vLaborForecastIntra</a></li>
+<li><a href="vlaborforecastlimits/">vLaborForecastLimits</a></li>
+<li><a href="vlaborstandard/">vLaborStandard</a></li>
+<li><a href="vlaborstandarddriver/">vLaborStandardDriver</a></li>
+<li><a href="vlaborstandardearned/">vLaborStandardEarned</a></li>
+<li><a href="vlaborstandardearnedintra/">vLaborStandardEarnedIntra</a></li>
+<li><a href="vlaborstandardforecast/">vLaborStandardForecast</a></li>
+<li><a href="vlaborstandardforecastintra/">vLaborStandardForecastIntra</a></li>
+<li><a href="vlaborstandardperiod/">vLaborStandardPeriod</a></li>
+<li><a href="vlaborstandardtask/">vLaborStandardTask</a></li>
+<li><a href="vlaborstandardtaskgroup/">vLaborStandardTaskGroup</a></li>
+<li><a href="vlaborstandardtimevalue/">vLaborStandardTimeValue</a></li>
+<li><a href="vlaborstandardtimevalueadjustment/">vLaborStandardTimeValueAdjustment</a></li>
+<li><a href="vlaborstandardtimevaluescaleitems/">vLaborStandardTimeValueScaleItems</a></li>
+<li><a href="vlinkedcategory/">vLinkedCategory</a></li>
+<li><a href="vlkplinkedcategoryconfig/">vLkpLinkedCategoryConfig</a></li>
+<li><a href="vtrafficpatternforecast/">vTrafficPatternForecast</a></li>
+<li><a href="vvolumedriverassignment/">vVolumeDriverAssignment</a></li>
+<li><a href="vvolumedrivers/">vVolumeDrivers</a></li>
+<li><a href="vvolumeforecast/">vVolumeForecast</a></li>
+</ul>
+<h3 id="detail-dataset-healthcare-productivity">Detail Dataset → Healthcare Productivity</h3>
+<ul>
+<li><a href="vhcadailyproductivity/">vHcaDailyProductivity</a></li>
+<li><a href="vhcadailyproductivitypaid/">vHcaDailyProductivityPaid</a></li>
+<li><a href="vhcadailyproductivityprod/">vHcaDailyProductivityProd</a></li>
+<li><a href="vhcaemployee/">vHcaEmployee</a></li>
+<li><a href="vhcaemploymentstatus/">vHcaEmploymentStatus</a></li>
+<li><a href="vhcapayperiodprodemp/">vHcaPayperiodProdEmp</a></li>
+<li><a href="vhcapayperiodprodempdrvdkpi/">vHcaPayperiodProdEmpDrvdkpi</a></li>
+<li><a href="vhcapayperiodprodempnonprod/">vHcaPayperiodProdEmpNonProd</a></li>
+<li><a href="vhcapayperiodprodemppaid/">vHcaPayperiodProdEmpPaid</a></li>
+<li><a href="vhcapayperiodprodempprod/">vHcaPayperiodProdEmpProd</a></li>
+<li><a href="vhcapayperiodproductivity/">vHcaPayperiodProductivity</a></li>
+<li><a href="vhcapayperiodproductivitypaid/">vHcaPayperiodProductivityPaid</a></li>
+<li><a href="vhcapayperiodproductivityprod/">vHcaPayperiodProductivityProd</a></li>
+<li><a href="vhcapayrolldetail/">vHcaPayrollDetail</a></li>
+<li><a href="vhcapayrolljobs/">vHcaPayrollJobs</a></li>
+<li><a href="vhcavolumedetail/">vHcaVolumeDetail</a></li>
+<li><a href="vhcaworkgroup/">vHcaWorkGroup</a></li>
+<li><a href="vhcaworkunit/">vHcaWorkUnit</a></li>
+<li><a href="vhcaworkunithyperfind/">vHcaWorkUnitHyperfind</a></li>
+<li><a href="vhcaworkunithyperfindall/">vHcaWorkUnitHyperfindAll</a></li>
+<li><a href="vhcaworkunithyperfindprofile/">vHcaWorkUnitHyperfindProfile</a></li>
+<li><a href="vhcaworkunithyperfindprofilehf/">vHcaWorkUnitHyperfindProfileHF</a></li>
+<li><a href="vhcaworkunithyperfindworkunit/">vHcaWorkUnitHyperfindWorkUnit</a></li>
+<li><a href="vhcaworkunitlocation/">vHcaWorkUnitLocation</a></li>
+<li><a href="vhcaworkunitpayperiod/">vHcaWorkUnitPayPeriod</a></li>
+</ul>
+<h3 id="detail-dataset-hours-of-operations-views">Detail Dataset → Hours of Operations Views</h3>
+<ul>
+<li><a href="vhoursofoperation/">vHoursOfOperation</a></li>
+<li><a href="vhoursofoperationassign/">vHoursOfOperationAssign</a></li>
+<li><a href="vhoursofoperationassignoverride/">vHoursOfOperationAssignOverride</a></li>
+<li><a href="vhoursofoperationoverride/">vHoursOfOperationOverride</a></li>
+<li><a href="vlkphoursofoperationassign/">vLkpHoursOfOperationAssign</a></li>
+<li><a href="vlkphoursofoperationdaily/">vLkpHoursOfOperationDaily</a></li>
+<li><a href="vlkphoursofoperationoverridedaily/">vLkpHoursOfOperationOverrideDaily</a></li>
+</ul>
+<h3 id="detail-dataset-multicurrency-views">Detail Dataset → Multicurrency Views</h3>
+<ul>
+<li><a href="vlkpcurrencyexchangerates/">vLkpCurrencyExchangeRates</a></li>
+</ul>
+<h3 id="detail-dataset-org-structure-detail-views">Detail Dataset → Org Structure Detail Views</h3>
+<ul>
+<li><a href="locationtypes/">locationTypes</a></li>
+<li><a href="vageband/">vAgeBand</a></li>
+<li><a href="vagebandcstm/">vAgeBandCstm</a></li>
+<li><a href="vbusinessstructure/">vBusinessStructure</a></li>
+<li><a href="vbusinessstructureeffdate/">vBusinessStructureEffDate</a></li>
+<li><a href="vcostcenter/">vCostCenter</a></li>
+<li><a href="vemployeegroups/">vEmployeeGroups</a></li>
+<li><a href="vgenericjobs/">vGenericJobs</a></li>
+<li><a href="vgenericlocations/">vGenericLocations</a></li>
+<li><a href="vlaborcategories/">vLaborCategories</a></li>
+<li><a href="vlaborcategory/">vLaborCategory</a></li>
+<li><a href="vlkpbusinessstructurealldesc/">vLkpBusinessStructureAllDesc</a></li>
+<li><a href="vlocationtypemapping/">vLocationTypeMapping</a></li>
+<li><a href="vlocationtypes/">vLocationTypes</a></li>
+<li><a href="vsecorgmatrix/">vSecOrgMatrix</a></li>
+</ul>
+<h3 id="detail-dataset-pay-codeperiod-detail-views">Detail Dataset → Pay Code/Period Detail Views</h3>
+<ul>
+<li><a href="vlkppayperiod/">vLkpPayPeriod</a></li>
+<li><a href="vpaycode/">vPayCode</a></li>
+<li><a href="vpaycodemapping/">vPayCodeMapping</a></li>
+<li><a href="vpayperiod/">vPayPeriod</a></li>
+</ul>
+<h3 id="detail-dataset-people-detail-views">Detail Dataset → People Detail Views</h3>
+<ul>
+<li><a href="vpeople/">vPeople</a></li>
+<li><a href="vpeopleaccrualprofile/">vPeopleAccrualProfile</a></li>
+<li><a href="vpeopleadjustmentrule/">vPeopleAdjustmentRule</a></li>
+<li><a href="vpeopleage/">vPeopleAge</a></li>
+<li><a href="vpeopleapprover/">vPeopleApprover</a></li>
+<li><a href="vpeoplebadge/">vPeopleBadge</a></li>
+<li><a href="vpeoplebasewage/">vPeopleBaseWage</a></li>
+<li><a href="vpeoplecostcenter/">vPeopleCostCenter</a></li>
+<li><a href="vpeoplecustomdata/">vPeopleCustomData</a></li>
+<li><a href="vpeoplecustomdate/">vPeopleCustomDate</a></li>
+<li><a href="vpeopledataaccessgroup/">vPeopleDataAccessGroup</a></li>
+<li><a href="vpeopleemail/">vPeopleEmail</a></li>
+<li><a href="vpeopleemploymentstatus/">vPeopleEmploymentStatus</a></li>
+<li><a href="vpeopleemploymentstatusbydate/">vPeopleEmploymentStatusByDate</a></li>
+<li><a href="vpeopleemploymentterm/">vPeopleEmploymentTerm</a></li>
+<li><a href="vpeopleexpectedhour/">vPeopleExpectedHour</a></li>
+<li><a href="vpeopleexternalidentifiers/">vPeopleExternalIdentifiers</a></li>
+<li><a href="vpeoplefingerscan/">vPeopleFingerScan</a></li>
+<li><a href="vpeoplefte/">vPeopleFTE</a></li>
+<li><a href="vpeoplegroupassignment/">vPeopleGroupAssignment</a></li>
+<li><a href="vpeoplejobtransfer/">vPeopleJobTransfer</a></li>
+<li><a href="vpeoplelicense/">vPeopleLicense</a></li>
+<li><a href="vpeopleovertime/">vPeopleOvertime</a></li>
+<li><a href="vpeoplepayrule/">vPeoplePayRule</a></li>
+<li><a href="vpeoplepostaladdress/">vPeoplePostalAddress</a></li>
+<li><a href="vpeopleprimaryjob/">vPeoplePrimaryJob</a></li>
+<li><a href="vpeopletelcontact/">vPeopleTelContact</a></li>
+<li><a href="vpeopletimeentrymethod/">vPeopleTimeEntryMethod</a></li>
+<li><a href="vpeopleuseraccountstatus/">vPeopleUserAccountStatus</a></li>
+<li><a href="vunpvtpersoncustomdata/">vUnpvtPersonCustomData</a></li>
+</ul>
+<h3 id="detail-dataset-pipeline-configuration-not-for-reporting">Detail Dataset → Pipeline configuration (Not for reporting)</h3>
+<ul>
+<li><a href="vcontext/">vContext</a></li>
+<li><a href="vcontext_pipeline_settings/">vContext_pipeline_settings</a></li>
+</ul>
+<h3 id="detail-dataset-schedule-detail-views">Detail Dataset → Schedule Detail Views</h3>
+<ul>
+<li><a href="vavailability/">vAvailability</a></li>
+<li><a href="vscheduledaylist/">vScheduleDayList</a></li>
+<li><a href="vscheduledaylock/">vScheduleDayLock</a></li>
+<li><a href="vscheduleholiday/">vScheduleHoliday</a></li>
+<li><a href="vscheduleleaveedit/">vScheduleLeaveEdit</a></li>
+<li><a href="vscheduleleaveeditcomment/">vScheduleLeaveEditComment</a></li>
+<li><a href="vscheduleleaveeditoverridesegment/">vScheduleLeaveEditOverrideSegment</a></li>
+<li><a href="vscheduleopenshift/">vScheduleOpenShift</a></li>
+<li><a href="vscheduleopenshiftcomment/">vScheduleOpenShiftComment</a></li>
+<li><a href="vscheduleopenshiftsegment/">vScheduleOpenShiftSegment</a></li>
+<li><a href="vschedulepaycodeedit/">vSchedulePayCodeEdit</a></li>
+<li><a href="vschedulepaycodeeditcomment/">vSchedulePayCodeEditComment</a></li>
+<li><a href="vscheduleshift/">vScheduleShift</a></li>
+<li><a href="vscheduleshiftcomment/">vScheduleShiftComment</a></li>
+<li><a href="vscheduleshiftsegment/">vScheduleShiftSegment</a></li>
+<li><a href="vscheduletransaction/">vScheduleTransaction</a></li>
+</ul>
+<h3 id="detail-dataset-schedule-post-detail-views">Detail Dataset → Schedule Post Detail Views</h3>
+<ul>
+<li><a href="vschedulepost/">vSchedulePost</a></li>
+<li><a href="vzz_tmp_schedulepostmetric/">vZz_tmp_schedulePostMetric</a></li>
+</ul>
+<h3 id="detail-dataset-timecard-detail-views">Detail Dataset → Timecard Detail Views</h3>
+<ul>
+<li><a href="vtimecarddurationpaycodeedit/">vTimecardDurationPaycodeEdit</a></li>
+<li><a href="vtimecarddurationpaycodeeditcomment/">vTimecardDurationPaycodeEditComment</a></li>
+<li><a href="vtimecardexception/">vTimecardException</a></li>
+<li><a href="vtimecardexceptioncomment/">vTimecardExceptionComment</a></li>
+<li><a href="vtimecardhistoricalcorrection/">vTimecardHistoricalCorrection</a></li>
+<li><a href="vtimecardholidaycredit/">vTimecardHolidayCredit</a></li>
+<li><a href="vtimecardholidaycreditcomment/">vTimecardHolidayCreditComment</a></li>
+<li><a href="vtimecardpaycodeedit/">vTimecardPayCodeEdit</a></li>
+<li><a href="vtimecardpaycodeeditcomment/">vTimecardPayCodeEditComment</a></li>
+<li><a href="vtimecardpunch/">vTimecardPunch</a></li>
+<li><a href="vtimecardpunchcomment/">vTimecardPunchComment</a></li>
+<li><a href="vtimecardworkshift/">vTimecardWorkShift</a></li>
+<li><a href="vtimecardworkshiftscheduledshift/">vTimecardWorkShiftScheduledShift</a></li>
+<li><a href="vtimecardworkshiftspan/">vTimecardWorkShiftSpan</a></li>
+</ul>
+<h3 id="detail-dataset-timekeeping-setup">Detail Dataset → Timekeeping Setup</h3>
+<ul>
+<li><a href="vcostcenter/">vCostCenter</a></li>
+<li><a href="vfixedrules/">vFixedRules</a></li>
+<li><a href="vpayrules/">vPayRules</a></li>
+<li><a href="vpayrulesassignment/">vPayRulesAssignment</a></li>
+<li><a href="vpayrulesholiday/">vPayRulesHoliday</a></li>
+<li><a href="vworkrules/">vWorkRules</a></li>
+</ul>
+<h3 id="detail-dataset-totals-detail-views">Detail Dataset → Totals Detail Views</h3>
+<ul>
+<li><a href="vprojectedtotal/">vProjectedTotal</a></li>
+<li><a href="vprojectedtotalexcludecorrection/">vProjectedTotalExcludeCorrection</a></li>
+<li><a href="vprojectedtotalonlycorrection/">vProjectedTotalOnlyCorrection</a></li>
+<li><a href="vscheduletotal/">vScheduleTotal</a></li>
+<li><a href="vtimecardtotal/">vTimecardTotal</a></li>
+<li><a href="vtimecardtotalexcludecorrection/">vTimecardTotalExcludeCorrection</a></li>
+<li><a href="vtimecardtotalonlycorrection/">vTimecardTotalOnlyCorrection</a></li>
+<li><a href="vtimecardtransaction/">vTimecardTransaction</a></li>
+</ul>
+<h3 id="detail-dataset-workload-planner">Detail Dataset → Workload Planner</h3>
+<ul>
+<li><a href="vworkloadplanneractualcoverage/">vWorkloadPlannerActualCoverage</a></li>
+<li><a href="vworkloadplanneractualvolume/">vWorkloadPlannerActualVolume</a></li>
+<li><a href="vworkloadplanneractualweights/">vWorkloadPlannerActualWeights</a></li>
+<li><a href="vworkloadplanneractualworkload/">vWorkloadPlannerActualWorkload</a></li>
+<li><a href="vworkloadplannerbudgetcoverage/">vWorkloadPlannerBudgetCoverage</a></li>
+<li><a href="vworkloadplannerbudgetvolume/">vWorkloadPlannerBudgetVolume</a></li>
+<li><a href="vworkloadplannerbudgetweights/">vWorkloadPlannerBudgetWeights</a></li>
+<li><a href="vworkloadplannerbudgetworkload/">vWorkloadPlannerBudgetWorkload</a></li>
+<li><a href="vworkloadplannerplancoverage/">vWorkloadPlannerPlanCoverage</a></li>
+<li><a href="vworkloadplannerplanvolume/">vWorkloadPlannerPlanVolume</a></li>
+<li><a href="vworkloadplannerplanweights/">vWorkloadPlannerPlanWeights</a></li>
+<li><a href="vworkloadplannerplanworkload/">vWorkloadPlannerPlanWorkload</a></li>
+</ul>
+<h3 id="summary-dataset-age-attributes-age">Summary Dataset → Age Attributes (Age)</h3>
+<ul>
+<li><a href="age_age/">Age_age</a></li>
+<li><a href="age_ageband/">Age_ageBand</a></li>
+</ul>
+<h3 id="summary-dataset-dimension-views">Summary Dataset → Dimension Views</h3>
+<ul>
+<li><a href="refdate/">refDate</a></li>
+<li><a href="vdimaccrualcodes/">vDimAccrualCodes</a></li>
+<li><a href="vdimbusinessstructure/">vDimBusinessStructure</a></li>
+<li><a href="vdimcalendarstps/">vDimCalendarStps</a></li>
+<li><a href="vdimdate/">vDimDate</a></li>
+<li><a href="vdimhoursofoperation/">vDimHoursOfOperation</a></li>
+<li><a href="vdimpaycode/">vDimPayCode</a></li>
+<li><a href="vdimpayperiod/">vDimPayPeriod</a></li>
+<li><a href="vdimpeople/">vDimPeople</a></li>
+<li><a href="vdimtime15min/">vDimTime15min</a></li>
+<li><a href="vstp/">vSTP</a></li>
+</ul>
+<h3 id="summary-dataset-healthcare-productivity-summary">Summary Dataset → Healthcare Productivity Summary</h3>
+<ul>
+<li><a href="custom/">custom</a></li>
+<li><a href="vhcametricsdaily/">vHcaMetricsDaily</a></li>
+<li><a href="vhcametricspayperiod/">vHcaMetricsPayPeriod</a></li>
+</ul>
+<h3 id="summary-dataset-metricsintra-vkronosintrasummary">Summary Dataset → metricsIntra (vKronosIntraSummary)</h3>
+<ul>
+<li><a href="vkronosdaysummary/">vKronosDaySummary</a></li>
+<li><a href="vscheduleopenshiftsegmentintra/">vScheduleOpenShiftSegmentIntra</a></li>
+<li><a href="vschedulepostjobsbyweek/">vSchedulePostJobsByWeek</a></li>
+<li><a href="vscheduleshiftsegmentintra/">vScheduleShiftSegmentIntra</a></li>
+<li><a href="vtimecardworkshiftspanintra/">vTimecardWorkShiftSpanIntra</a></li>
+<li><a href="vtrafficpatternvolumeforecast/">vTrafficPatternVolumeForecast</a></li>
+<li><a href="vunpvtactualvolume/">vUnpvtActualVolume</a></li>
+<li><a href="vunpvtactualvolumeintra/">vUnpvtActualVolumeIntra</a></li>
+<li><a href="vunpvtcustomdrivervalues/">vUnpvtCustomDriverValues</a></li>
+<li><a href="vunpvtessavailability/">vUnpvtEssAvailability</a></li>
+<li><a href="vunpvtessopenshift/">vUnpvtEssOpenShift</a></li>
+<li><a href="vunpvtessselfschedule/">vUnpvtEssSelfSchedule</a></li>
+<li><a href="vunpvtessshiftcover/">vUnpvtEssShiftCover</a></li>
+<li><a href="vunpvtessshiftswap/">vUnpvtEssShiftSwap</a></li>
+<li><a href="vunpvtesstimeoff/">vUnpvtEssTimeOff</a></li>
+<li><a href="vunpvtlaborbudget/">vUnpvtLaborBudget</a></li>
+<li><a href="vunpvtlaborforecast/">vUnpvtLaborForecast</a></li>
+<li><a href="vunpvtlaborforecastintra/">vUnpvtLaborForecastIntra</a></li>
+<li><a href="vunpvtscheduleauditshiftaudits/">vUnpvtScheduleAuditShiftAudits</a></li>
+<li><a href="vunpvttimecardaudit/">vUnpvtTimecardAudit</a></li>
+<li><a href="vunpvttimecardexception/">vUnpvtTimecardException</a></li>
+<li><a href="vunpvttimecardpunch/">vUnpvtTimecardPunch</a></li>
+<li><a href="vunpvttotal/">vUnpvtTotal</a></li>
+<li><a href="vunpvttrafficpatternforecast/">vUnpvtTrafficPatternForecast</a></li>
+<li><a href="vunpvtvolumebudget/">vUnpvtVolumeBudget</a></li>
+<li><a href="vunpvtvolumeforecast/">vUnpvtVolumeForecast</a></li>
+<li><a href="vunpvtworkedandscheduled/">vUnpvtWorkedAndScheduled</a></li>
+</ul>
+<h3 id="summary-dataset-pay-period-attributes-pp">Summary Dataset → Pay Period Attributes (PP)</h3>
+<ul>
+<li><a href="pp_enddate/">PP_endDate</a></li>
+<li><a href="pp_enddate/">PP_endDate</a></li>
+<li><a href="pp_payperiod/">PP_payPeriod</a></li>
+<li><a href="pp_payperiod/">PP_payPeriod</a></li>
+<li><a href="pp_payperiodoffset/">PP_payPeriodOffset</a></li>
+<li><a href="pp_payperiodoffset/">PP_payPeriodOffset</a></li>
+<li><a href="pp_startdate/">PP_startDate</a></li>
+<li><a href="pp_startdate/">PP_startDate</a></li>
+</ul>
+<h3 id="summary-dataset-summary-staging-views-not-for-reporting">Summary Dataset → Summary Staging Views (not for reporting)</h3>
+<ul>
+<li><a href="vavailabilityintra/">vAvailabilityIntra</a></li>
+</ul>
+<h3 id="summary-dataset-traffic-pattern-volume-forecast-m_trafpatvolfcst">Summary Dataset → Traffic Pattern Volume Forecast (M_TrafPatVolFcst)</h3>
+<ul>
+<li><a href="vkronosintrasummary_stp/">vKronosIntraSummary_STP</a></li>
+<li><a href="vkronosintrasummary_stp_user/">vKronosIntraSummary_STP_User</a></li>
+<li><a href="vkronosintrasummary_user/">vKronosIntraSummary_User</a></li>
+</ul>
+<h3 id="summary-dataset-transactional-views">Summary Dataset → Transactional Views</h3>
+<ul>
+<li><a href="vaccrualbalancesummary/">vAccrualBalanceSummary</a></li>
+</ul>
+<h3 id="summary-dataset-volume-forecast-metrics-m_volfcst">Summary Dataset → Volume Forecast Metrics (M_Volfcst)</h3>
+<ul>
+<li><a href="vkronosdaysummary_stp/">vKronosDaySummary_STP</a></li>
+<li><a href="vkronosdaysummary_stp_user/">vKronosDaySummary_STP_User</a></li>
+<li><a href="vkronosdaysummary_user/">vKronosDaySummary_User</a></li>
+<li><a href="vkronosintrasummary/">vKronosIntraSummary</a></li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": [], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>

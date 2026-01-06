@@ -1,0 +1,5694 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.1">
+    
+    
+      
+        <title>vHcaMetricsPayPeriod - UKG Pro WFM Data Hub</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#vhcametricspayperiod" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="UKG Pro WFM Data Hub" class="md-header__button md-logo" aria-label="UKG Pro WFM Data Hub" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            UKG Pro WFM Data Hub
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              vHcaMetricsPayPeriod
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="UKG Pro WFM Data Hub" class="md-nav__button md-logo" aria-label="UKG Pro WFM Data Hub" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    UKG Pro WFM Data Hub
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Getting Started
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Getting Started
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../getting-started/quickstart/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Quickstart
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Concepts
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Concepts
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../concepts/public-safety/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Public Safety Rules
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../concepts/grain-and-keys/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Grain and Keys
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../concepts/detail-vs-summary/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Detail vs Summary
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../concepts/worked-vs-home-org/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Worked vs Home Org
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../concepts/date-logic/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Date Logic
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../concepts/redaction-policy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Redaction Policy
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Runbooks
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Runbooks
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../runbooks/entity-generation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entity Generation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../report-catalog/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Report Catalog
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Patterns
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Patterns
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../patterns/partition-filters/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Partition Filters
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../patterns/join-safety/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Join Safety
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../patterns/validation-checklist/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Validation Checklist
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Domains
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Domains
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../domains/overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../domains/people/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    People
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../domains/org-structure/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Org Structure
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../domains/timecard/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Timecard
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../domains/schedule/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Schedule
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../domains/totals/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Totals
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../domains/accruals/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Accruals
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../domains/ess/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ESS / Workflow
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../domains/forecasting/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Forecasting
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entities
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Entities
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entities/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Index
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" >
+        
+          
+          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Use Cases
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Use Cases
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../use-cases/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Index
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../use-cases/overtime-utilization/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overtime Utilization
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../use-cases/schedule-vs-worked/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Schedule vs Worked Variance
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../use-cases/approval-cycle-time/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Approval Cycle Time
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../use-cases/accrual-health/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Accrual Health Monitor
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../use-cases/punch-investigation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Punch Investigation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10" >
+        
+          
+          <label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Roles
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Roles
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../roles/analyst/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Analyst
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../roles/engineer/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Engineer
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../roles/architect/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Architect
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../roles/data-scientist/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Data Scientist
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_11" >
+        
+          
+          <label class="md-nav__link" for="__nav_11" id="__nav_11_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Templates
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_11_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_11">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Templates
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../templates/kpi-contract/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    KPI Contract
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../templates/report-spec/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Report Spec
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../templates/dataset-spec/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Dataset Spec
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#metadata" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Metadata
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#columns" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Columns
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="vhcametricspayperiod">vHcaMetricsPayPeriod</h1>
+<p><strong>Group:</strong> Summary Dataset → Healthcare Productivity Summary</p>
+<ul>
+<li>Materialized pay period HCA metrics and attributes.</li>
+</ul>
+<h2 id="metadata">Metadata</h2>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Dataset / View / Table</td>
+<td>vHcaMetricsPayPeriod</td>
+</tr>
+<tr>
+<td>Unique Identifier</td>
+<td>partitionDate,workUnitId</td>
+</tr>
+<tr>
+<td>Source Pipeline</td>
+<td>hcaSummary(DR), hcaMetricsPayPeriod (DR)</td>
+</tr>
+</tbody>
+</table>
+<h2 id="columns">Columns</h2>
+<p><strong>Column count:</strong> 550</p>
+<table>
+<thead>
+<tr>
+<th>Column</th>
+<th>Data Type</th>
+<th>Description</th>
+<th>PII/Confidential</th>
+<th>Scrubbing</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>partitionDate</td>
+<td>DATE</td>
+<td>Represents apply date of the payroll detail - use to join to date dimension</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>workunitId</td>
+<td>INT64</td>
+<td>The ID of the work unit</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>startDate</td>
+<td>DATE</td>
+<td>Start Date of the pay period</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>endDate</td>
+<td>DATE</td>
+<td>End date of the pay period</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>personId</td>
+<td>INT64</td>
+<td>The ID of the person referencing the People view</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>orgjobId</td>
+<td>INT64</td>
+<td>The ID of the org job referencing the businessStructure view</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>workgroupId</td>
+<td>INT64</td>
+<td>The ID of the work group</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_TgtFixedPaidDef_Amt</td>
+<td>FLOAT</td>
+<td>Pay Period Fixed Paid Amount Target - Default</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_TgtFixedPaidAlt_Amt</td>
+<td>FLOAT</td>
+<td>Pay Period Fixed Paid Amount Target - Alternate</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_TgtFixedPaidDef_Hrs</td>
+<td>FLOAT</td>
+<td>Pay Period Fixed Paid Hours Target - Default</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_TgtFixedPaid_Hrs</td>
+<td>FLOAT</td>
+<td>Pay Period Fixed Paid Hours Target - Alternate</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_TgtFixedProd_Amt</td>
+<td>FLOAT</td>
+<td>Pay Period Fixed Prod Amount Target - Alternate</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_TgtFixedProdDef_Hrs</td>
+<td>FLOAT</td>
+<td>Pay Period Fixed Prod Hours Target - Default</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_TgtFixedProdAlt_Hrs</td>
+<td>FLOAT</td>
+<td>Pay Period Fixed Prod Hours Target - Alternate</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_TgtVariablePaidDef_Amt</td>
+<td>FLOAT</td>
+<td>Pay Period Variable Paid Amount Target - Default</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_TgtVariablePaidAlt_Amt</td>
+<td>FLOAT</td>
+<td>Pay Period Variable Paid Amount Target - Alternate</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_TgtVariablePaidDef_Hrs</td>
+<td>FLOAT</td>
+<td>Pay Period Variable Paid Hours Target - Default</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_TgtVariablePaidAlt_Hrs</td>
+<td>FLOAT</td>
+<td>Pay Period Variable Paid Hours Target - Alternate</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_TgtVariableProdDef_Amt</td>
+<td>FLOAT</td>
+<td>Pay Period Variable Prod Amount Target - Default</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_TgtVariableProdAlt_Amt</td>
+<td>FLOAT</td>
+<td>Pay Period Variable Prod Amount Target - Default</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_TgtVariableProdDef_Hrs</td>
+<td>FLOAT</td>
+<td>Pay Period Variable Prod Hours Target - Default</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_TgtVariableProdAlt_Hrs</td>
+<td>FLOAT</td>
+<td>Pay Period Variable Prod Hours Target - Alternate</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hcakpi_VariableProdHrsPerVolWeighted_Pct</td>
+<td>FLOAT</td>
+<td>Pay Period Variable Productive Hours Targets/Unit Of Service</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hcakpi_PaidAmtTgtPerVolWeightedDef_Pct</td>
+<td>FLOAT</td>
+<td>Pay Period Paid Amount Target/Unit Of Service - Default</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hcakpi_PaidAmtTgtPerVolWeightedAlt_Pct</td>
+<td>FLOAT</td>
+<td>Pay Period Paid Amount Target/Unit Of Service - Alternate</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hcakpi_PaidTgtDef_Amt</td>
+<td>FLOAT</td>
+<td>Pay Period Paid Amount Target - Default</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hcakpi_PaidTgtAlt_Amt</td>
+<td>FLOAT</td>
+<td>Pay Period Paid Amount Target - Alternate</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hcakpi_PaidVar_Amt</td>
+<td>FLOAT</td>
+<td>Pay Period Paid Amount Variance</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hcakpi_PaidGrandTot_Amt</td>
+<td>FLOAT</td>
+<td>Pay Period Paid Grand Total Amount</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hcakpi_PaidGrandTotFte_Amt</td>
+<td>FLOAT</td>
+<td>Pay Period Paid FTEs Total</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hcakpi_PaidGrandTot_Hrs</td>
+<td>FLOAT</td>
+<td>Pay Period Paid Grand Total Hours</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hcakpi_PaidFte_Hrs</td>
+<td>FLOAT</td>
+<td>Pay Period Paid FTEs</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hcakpi_PaidHrsTgtPerVolWeightedDef_Pct</td>
+<td>FLOAT</td>
+<td>Pay Period Paid Hours Target/Unit Of Service - Default</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hcakpi_PaidHrsTgtPerVolWeightedAlt_Pct</td>
+<td>FLOAT</td>
+<td>Pay Period Paid Hours Target/Unit Of Service - Alternate</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hcakpi_PaidTgtDef_Hrs</td>
+<td>FLOAT</td>
+<td>Pay Period Paid Hours Target - Default</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hcakpi_PaidTgtAlt_Hrs</td>
+<td>FLOAT</td>
+<td>Pay Period Paid Hours Target - Alternate</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hcakpi_PaidVar_Hrs</td>
+<td>FLOAT</td>
+<td>Pay Period Paid Hours Variance</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hcakpi_PaidRegFtxot_Amt</td>
+<td>FLOAT</td>
+<td>Pay Period Regular Paid Full Time Amount</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hcakpi_PaidRegFtxotFte_Amt</td>
+<td>FLOAT</td>
+<td>Pay Period Regular Paid Full Time FTEs</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hcakpi_PaidRegFtxot_Hrs</td>
+<td>FLOAT</td>
+<td>Pay Period Regular Paid Full Time Hours</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hcakpi_PaidRegPtxot_Amt</td>
+<td>FLOAT</td>
+<td>Pay Period Regular Paid Part Time Amount</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hcakpi_PaidRegTotxot_Amt</td>
+<td>FLOAT</td>
+<td>Pay Period Regular Paid Total Amount</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hcakpi_PaidRegTotxotFte_Amt</td>
+<td>FLOAT</td>
+<td>Pay Period Regular Paid Total FTEs</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hcakpi_PaidRegPtxotFte_Amt</td>
+<td>FLOAT</td>
+<td>Pay Period Regular Paid Part Time FTEs</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hcakpi_PaidRegPtxot_Hrs</td>
+<td>FLOAT</td>
+<td>Pay Period Regular Paid Part Time Hours</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hcakpi_PaidRegTotxot_Hrs</td>
+<td>FLOAT</td>
+<td>Pay Period Regular Paid Total Hours</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hcakpi_PaidSupAgncyFte_Amt</td>
+<td>FLOAT</td>
+<td>Pay Period Supplemental Paid Agency FTEs</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hcakpi_PaidSupExtraptFte_Amt</td>
+<td>FLOAT</td>
+<td>Pay Period Supplemental Paid Extra Part Time FTEs</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hcakpi_PaidSupFltinxot_Amt</td>
+<td>FLOAT</td>
+<td>Pay Period Supplemental Paid Float In Amount</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hcakpi_PaidFltinxotFte_Amt</td>
+<td>FLOAT</td>
+<td>Pay Period Supplemental Paid Float In FTEs</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hcakpi_PaidSupFltinxot_Hrs</td>
+<td>FLOAT</td>
+<td>Pay Period Supplemental Paid Float In Hours</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hcakpi_PaidSupFltoutFte_Amt</td>
+<td>FLOAT</td>
+<td>Pay Period Supplemental Paid Float Out FTEs</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hcakpi_PaidSupIntagncyxot_Amt</td>
+<td>FLOAT</td>
+<td>Pay Period Supplemental Paid Internal Agency Amount</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hcakpi_PaidSupIntagncyxotFte_Amt</td>
+<td>FLOAT</td>
+<td>Pay Period Supplemental Paid Internal Agency FTEs</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hcakpi_PaidSupIntagncyxotFte_Hrs</td>
+<td>FLOAT</td>
+<td>Pay Period Supplemental Paid Internal Agency Hours</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hcakpi_PaidSupOtxagncy_Amt</td>
+<td>FLOAT</td>
+<td>Pay Period Supplemental Paid Overtime Amount</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hcakpi_PaidSupOtxagncyFte_Amt</td>
+<td>FLOAT</td>
+<td>Pay Period Supplemental Paid Overtime FTEs</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hcakpi_PaidSupOtxagncy_Hrs</td>
+<td>FLOAT</td>
+<td>Pay Period Supplemental Paid Overtime Hours</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hcakpi_PaidSupPdiemxot_Amt</td>
+<td>FLOAT</td>
+<td>Pay Period Supplemental Paid Per Diem Amount</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hcakpi_PaidSupPdiemxotFte_Amt</td>
+<td>FLOAT</td>
+<td>Pay Period Supplemental Paid Per Diem FTEs</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hcakpi_PaidSupPdiemxot_Hrs</td>
+<td>FLOAT</td>
+<td>Pay Period Supplemental Paid Per Diem Hours</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hcakpi_PaidSupPoolxot_Amt</td>
+<td>FLOAT</td>
+<td>Pay Period Supplemental Paid Pool Amount</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hcakpi_PaidSupTot_Hrs</td>
+<td>FLOAT</td>
+<td>Pay Period Supplemental Paid Total Hours</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hcakpi_ProdAmtIdx_Pct</td>
+<td>FLOAT</td>
+<td>Pay Period Productivity Amount Index</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hcakpi_ProdAmtTgtPerVolWeightedDef_Pct</td>
+<td>FLOAT</td>
+<td>Pay Period Productive Amount Target/Unit Of Service</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hcakpi_ProdAmtTgtPerVolWeightedAlt_Pct</td>
+<td>FLOAT</td>
+<td>Pay Period Productive Amount Target/Unit Of Service</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hcakpi_ProdTgtDef_Amt</td>
+<td>FLOAT</td>
+<td>Pay Period Productive Amount Target - Default</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hcakpi_ProdTgtAlt_Amt</td>
+<td>FLOAT</td>
+<td>Pay Period Productive Amount Target - Alternate</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hcakpi_ProdVar_Amt</td>
+<td>FLOAT</td>
+<td>Pay Period Productive Amount Variance</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hcakpi_PaidSupPoolxotFte_Amt</td>
+<td>FLOAT</td>
+<td>Pay Period Supplemental Paid Pool FTEs</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hcakpi_PaidSupTot_Amt</td>
+<td>FLOAT</td>
+<td>Pay Period Supplemental Paid Total Amount</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hcakpi_PaidSupTotFte_Amt</td>
+<td>FLOAT</td>
+<td>Pay Period Supplemental Paid Total FTEs</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hcakpi_PaidSupPoolxot_Hrs</td>
+<td>FLOAT</td>
+<td>Pay Period Supplemental Paid Pool Hours</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hcakpi_ProdHrsFte_Amt</td>
+<td>FLOAT</td>
+<td>Pay Period Productive Hours FTEs</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hcakpi_ProdHrsIdx_Pct</td>
+<td>FLOAT</td>
+<td>Pay Period Productivity Index</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hcakpi_ProdHrsPerVolWeighted_Pct</td>
+<td>FLOAT</td>
+<td>Pay Period Productive Hours/Unit Of Service</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hcakpi_ProdHrsTgtPerVolWeightedDef_Pct</td>
+<td>FLOAT</td>
+<td>Pay Period Productive Hours Target/Unit Of Service</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hcakpi_ProdHrsTgtPerVolWeightedAlt_Pct</td>
+<td>FLOAT</td>
+<td>Pay Period Productive Hours Target/Unit Of Service</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hcakpi_ProdTgtDef_Hrs</td>
+<td>FLOAT</td>
+<td>Pay Period Productive Hours Target - Default</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hcakpi_ProdTgtAlt_Hrs</td>
+<td>FLOAT</td>
+<td>Pay Period Productive Hours Target - Alternate</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hcakpi_ProdVarCost_Hrs</td>
+<td>FLOAT</td>
+<td>Estimated Cost</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hcakpi_ProdVar_Hrs</td>
+<td>FLOAT</td>
+<td>Pay Period Productive Hours Variance</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hcakpi_ProdAmtPerVolWeighted_Pct</td>
+<td>FLOAT</td>
+<td>Pay Period Productive Cost/Unit Of Service</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hcakpi_ProdHrsVarPerVolWeightedDef_Pct</td>
+<td>FLOAT</td>
+<td>Pay Period Productive Hours Variance/Unit Of Service</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Hca_RawPayrollJob</td>
+<td>STRING</td>
+<td>Payroll Paid Job</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_RawPayrollPaid_Hrs</td>
+<td>FLOAT</td>
+<td>Payroll Hours</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_RawPayrollPaid_Amt</td>
+<td>FLOAT</td>
+<td>Payroll Amount</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Hca_RawEmploymentStatus</td>
+<td>STRING</td>
+<td>Payroll Employment Status</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Hca_RawPaycodeName</td>
+<td>STRING</td>
+<td>Payroll Paycode Name</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_RawStandard_Hrs</td>
+<td>FLOAT</td>
+<td>Payroll Standard Hours</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_Np_Amt</td>
+<td>FLOAT</td>
+<td>Pay Period Non Productive Amount</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_Np_Hrs</td>
+<td>FLOAT</td>
+<td>Pay Period Non Productive Hours</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_NpOthAgncy_Amt</td>
+<td>FLOAT</td>
+<td>Pay Period Non Productive Other Agency Amount</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_NpOthAgncy_Hrs</td>
+<td>FLOAT</td>
+<td>Pay Period Non Productive Other Agency Hours</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_NpOthFltin_Amt</td>
+<td>FLOAT</td>
+<td>Pay Period Non Productive Other Float In Amount</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_NpOthFltin_Hrs</td>
+<td>FLOAT</td>
+<td>Pay Period Non Productive Other Float In Hours</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_NpOthFltout_Amt</td>
+<td>FLOAT</td>
+<td>Pay Period Non Productive Other Float Out Amount</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_NpOthFltout_Hrs</td>
+<td>FLOAT</td>
+<td>Pay Period Non Productive Other Float Out Hours</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_NpOthFt_Amt</td>
+<td>FLOAT</td>
+<td>Pay Period Non Productive Other Full Time Amount</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_NpFt_Hrs</td>
+<td>FLOAT</td>
+<td>Pay Period Non Productive Other Full Time Hours</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_NpOthPdiem_Amt</td>
+<td>FLOAT</td>
+<td>Pay Period Non Productive Other Pdiem Amount</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_NpOthPdiem_Hrs</td>
+<td>FLOAT</td>
+<td>Pay Period Non Productive Other Pdiem Hours</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_NpOthPool_Amt</td>
+<td>FLOAT</td>
+<td>Pay Period Non Productive Other Pool Amount</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_NpOthPool_Hrs</td>
+<td>FLOAT</td>
+<td>Pay Period Non Productive Other Pool Hours</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_NpOthPt_Amt</td>
+<td>FLOAT</td>
+<td>Pay Period Non Productive Other Part Time Amount</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_NpOthPt_Hrs</td>
+<td>FLOAT</td>
+<td>Pay Period Non Productive Other Part Time Hours</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_NpRnpAgncy_Amt</td>
+<td>FLOAT</td>
+<td>Pay Period Non Productive Agency Amount</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_NpRnpAgncy_Hrs</td>
+<td>FLOAT</td>
+<td>Pay Period Non Productive Agency Hours</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_NpRnpFltin_Amt</td>
+<td>FLOAT</td>
+<td>Pay Period Non Productive Float In Amount</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_NpRnpFltin_Hrs</td>
+<td>FLOAT</td>
+<td>Pay Period Non Productive Float In Hours</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_NpRnpFltout_Amt</td>
+<td>FLOAT</td>
+<td>Pay Period Non Productive Float Out Amount</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_NpRnpFltout_Hrs</td>
+<td>FLOAT</td>
+<td>Pay Period Non Productive Float Out Hours</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_NpRnpFt_Amt</td>
+<td>FLOAT</td>
+<td>Pay Period Non Productive Full Time Amount</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_NpRnpFt_Hrs</td>
+<td>FLOAT</td>
+<td>Pay Period Non Productive Full Time Hours</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_NpRnpIntagncy_Amt</td>
+<td>FLOAT</td>
+<td>Pay Period Non Productive Internal Agency Amount</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_NpRnpIntagncy_Hrs</td>
+<td>FLOAT</td>
+<td>Pay Period Non Productive Internal Agency Hours</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_NpRnpPdiem_Amt</td>
+<td>FLOAT</td>
+<td>Pay Period Non Productive Pdiem Amount</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_NpRnpPdiem_Hrs</td>
+<td>FLOAT</td>
+<td>Pay Period Non Productive Pdiem Hours</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_NpRnpPool_Amt</td>
+<td>FLOAT</td>
+<td>Pay Period Non Productive Pool Amount</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_NpRnpPool_Hrs</td>
+<td>FLOAT</td>
+<td>Pay Period Non Productive Pool Hours</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_NpRnpPt_Amt</td>
+<td>FLOAT</td>
+<td>Pay Period Non Productive Part Time Amount</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_NpRnpPt_Hrs</td>
+<td>FLOAT</td>
+<td>Pay Period Non Productive Part Time Hours</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_NpRnp1Agncy_Amt</td>
+<td>FLOAT</td>
+<td>Pay Period Non Productive1 Agency Amount</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_NpRnp1Agncy_Hrs</td>
+<td>FLOAT</td>
+<td>Pay Period Non Productive1 Agency Hours</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_NpRnp1Fltin_Amt</td>
+<td>FLOAT</td>
+<td>Pay Period Non Productive1 Float In Amount</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_NpRnp1Fltin_Hrs</td>
+<td>FLOAT</td>
+<td>Pay Period Non Productive1 Float In Hours</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_NpRnp1Fltout_Amt</td>
+<td>FLOAT</td>
+<td>Pay Period Non Productive1 Float Out Amount</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_NpRnp1Fltout_Hrs</td>
+<td>FLOAT</td>
+<td>Pay Period Non Productive1 Float Out Hours</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_NpRnp1Ft_Amt</td>
+<td>FLOAT</td>
+<td>Pay Period Non Productive1 Full Time Amount</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_NpRnp1Ft_Hrs</td>
+<td>FLOAT</td>
+<td>Pay Period Non Productive1 Full Time Hours</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_NpRnp1Intagncy_Amt</td>
+<td>FLOAT</td>
+<td>Pay Period Non Productive1 Internal Agency Amount</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_NpRnp1Intagncy_Hrs</td>
+<td>FLOAT</td>
+<td>Pay Period Non Productive1 Internal Agency Hours</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_NpRnp1Pdiem_Amt</td>
+<td>FLOAT</td>
+<td>Pay Period Non Productive1 Pool Amount</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_NpRnp1Pdiem_Hrs</td>
+<td>FLOAT</td>
+<td>Pay Period Non Productive1 Pool Hours</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_NpRnp1Pool_Amt</td>
+<td>FLOAT</td>
+<td>Pay Period Non Productive1 Part Time Amount</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_NpRnp1Pool_Hrs</td>
+<td>FLOAT</td>
+<td>Pay Period Non Productive1 Part Time Hours</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_NpRnp1Pt_Amt</td>
+<td>FLOAT</td>
+<td>Pay Period Non Productive1 Pdiem Amount</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_NpRnp1Pt_Hrs</td>
+<td>FLOAT</td>
+<td>Pay Period Non Productive1 Pdiem Hours</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_NpRnp2Agncy_Amt</td>
+<td>FLOAT</td>
+<td>Pay Period Non Productive2 Agency Amount</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_NpRnp2Agncy_Hrs</td>
+<td>FLOAT</td>
+<td>Pay Period Non Productive2 Agency Hours</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_NpRnp2Fltin_Amt</td>
+<td>FLOAT</td>
+<td>Pay Period Non Productive2 Float In Amount</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_NpRnp2Fltin_Hrs</td>
+<td>FLOAT</td>
+<td>Pay Period Non Productive2 Float In Hours</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_NpRnp2Fltout_Amt</td>
+<td>FLOAT</td>
+<td>Pay Period Non Productive2 Float Out Amount</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_NpRnp2Fltout_Hrs</td>
+<td>FLOAT</td>
+<td>Pay Period Non Productive2 Float Out Hours</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_NpRnp2Ft_Amt</td>
+<td>FLOAT</td>
+<td>Pay Period Non Productive2 Full Time Amount</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_NpRnp2Ft_Hrs</td>
+<td>FLOAT</td>
+<td>Pay Period Non Productive2 Full Time Hours</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_NpRnp2Intagncy_Amt</td>
+<td>FLOAT</td>
+<td>Pay Period Non Productive2 Internal Agency Amount</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_NpRnp2Intagncy_Hrs</td>
+<td>FLOAT</td>
+<td>Pay Period Non Productive2 Internal Agency Hours</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_NpRnp2Pool_Amt</td>
+<td>FLOAT</td>
+<td>Pay Period Non Productive2 Pdiem Amount</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_NpRnp2Pool_Hrs</td>
+<td>FLOAT</td>
+<td>Pay Period Non Productive2 Pdiem Hours</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_NpRnp2Pt_Amt</td>
+<td>FLOAT</td>
+<td>Pay Period Non Productive2 Pool Amount</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_NpRnp2Pt_Hrs</td>
+<td>FLOAT</td>
+<td>Pay Period Non Productive2 Pool Hours</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_Ot_Hrs</td>
+<td>FLOAT</td>
+<td>Pay Period Overtime Hours</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_Ot_Amt</td>
+<td>FLOAT</td>
+<td>Pay Period Overtime Amount</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_PaidAgncy_Amt</td>
+<td>FLOAT</td>
+<td>Pay Period Paid Agency Amount</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_NpRnp2Pdiem_Amt</td>
+<td>FLOAT</td>
+<td>Pay Period Non Productive2 Part Time Amount</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_NpRnp2Pdiem_Hrs</td>
+<td>FLOAT</td>
+<td>Pay Period Non Productive2 Part Time Hours</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_PaidAgncy_Hrs</td>
+<td>FLOAT</td>
+<td>Pay Period Paid Agency Hours</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_Paid_Amt</td>
+<td>FLOAT</td>
+<td>Pay Period Paid Amount</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_Paid_Hrs</td>
+<td>FLOAT</td>
+<td>Pay Period Paid Hours</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_PaidFltin_Amt</td>
+<td>FLOAT</td>
+<td>Pay Period Paid Float In Amount</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_PaidFltin_Hrs</td>
+<td>FLOAT</td>
+<td>Pay Period Paid Float In Hours</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_PaidFltout_Amt</td>
+<td>FLOAT</td>
+<td>Pay Period Paid Float Out Amount</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_PaidFltout_Hrs</td>
+<td>FLOAT</td>
+<td>Pay Period Paid Float Out Hours</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_PaidFt_Amt</td>
+<td>FLOAT</td>
+<td>Pay Period Paid Full Time Amount</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_PaidFt_Hrs</td>
+<td>FLOAT</td>
+<td>Pay Period Paid Full Time Hours</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_PaidIntagncy_Amt</td>
+<td>FLOAT</td>
+<td>Pay Period Paid Internal Agency Amount</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_PaidIntagncy_Hrs</td>
+<td>FLOAT</td>
+<td>Pay Period Paid Internal Agency Hours</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_PaidPdiem_Amt</td>
+<td>FLOAT</td>
+<td>Pay Period Paid Per Diem Amount</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_PaidPdiem_Hrs</td>
+<td>FLOAT</td>
+<td>Pay Period Paid Per Diem Hours</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_PaidPool_Amt</td>
+<td>FLOAT</td>
+<td>Pay Period Paid Pool Amount</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_PaidPool_Hrs</td>
+<td>FLOAT</td>
+<td>Pay Period Paid Pool Hours</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_PaidPt_Amt</td>
+<td>FLOAT</td>
+<td>Pay Period Paid Part Time Amount</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_PaidPt_Hrs</td>
+<td>FLOAT</td>
+<td>Pay Period Paid Part Time Hours</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_ProdAgncy_Amt</td>
+<td>FLOAT</td>
+<td>Pay Period Productive Agency Amount</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_ProdAgncy_Hrs</td>
+<td>FLOAT</td>
+<td>Pay Period Productive Agency Hours</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_Prod_Amt</td>
+<td>FLOAT</td>
+<td>Pay Period Productive Amount</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_Prod_Hrs</td>
+<td>FLOAT</td>
+<td>Pay Period Productive Hours</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_PaidExtraptPt_Amt</td>
+<td>FLOAT</td>
+<td>Pay Period Paid Extra Part Time Amount</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_PaidExtraptPt_Hrs</td>
+<td>FLOAT</td>
+<td>Pay Period Paid Extra Part Time Hours</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_ProdIntagncy_Amt</td>
+<td>FLOAT</td>
+<td>Pay Period Productive Internal Agency Amount</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_ProdIntagncy_Hrs</td>
+<td>FLOAT</td>
+<td>Pay Period Productive Internal Agency Hours</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_ProdOtAgncy_Amt</td>
+<td>FLOAT</td>
+<td>Pay Period  Productive Overtime Agency Amount</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_ProdOtAgncy_Hrs</td>
+<td>FLOAT</td>
+<td>Pay Period  Productive Overtime Agency Hours</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_ProdOtFltin_Amt</td>
+<td>FLOAT</td>
+<td>Pay Period Productive Overtime Float In Amount</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_ProdOtFltin_Hrs</td>
+<td>FLOAT</td>
+<td>Pay Period Productive Overtime Float In Hours</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_ProdOtFltout_Amt</td>
+<td>FLOAT</td>
+<td>Pay Period Productive Overtime Float Out Amount</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_ProdOtFltout_Hrs</td>
+<td>FLOAT</td>
+<td>Pay Period Productive Overtime Float Out Hours</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_ProdOtFt_Amt</td>
+<td>FLOAT</td>
+<td>Pay Period Productive Overtime Full Time Amount</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_ProdOtFt_Hrs</td>
+<td>FLOAT</td>
+<td>Pay Period Productive Overtime Full Time Hours</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_ProdOtIntagncy_Amt</td>
+<td>FLOAT</td>
+<td>Pay Period Productive Overtime Internal Agency Amount</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_ProdOtIntagncy_Hrs</td>
+<td>FLOAT</td>
+<td>Pay Period Productive Overtime Internal Agency Hours</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_ProdOtPdiem_Amt</td>
+<td>FLOAT</td>
+<td>Pay Period  Productive Overtime Pdiem Amount</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_ProdOtPdiem_Hrs</td>
+<td>FLOAT</td>
+<td>Pay Period  Productive Overtime Pdiem Hours</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_ProdOtPool_Amt</td>
+<td>FLOAT</td>
+<td>Pay Period  Productive Overtime Pool Amount</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_ProdOtPool_Hrs</td>
+<td>FLOAT</td>
+<td>Pay Period  Productive Overtime Pool Hours</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_ProdOtPt_Amt</td>
+<td>FLOAT</td>
+<td>Pay Period Productive Overtime Part Time Amount</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_ProdOtPt_Hrs</td>
+<td>FLOAT</td>
+<td>Pay Period Productive Overtime Part Time Hours</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_ProdOthAgncy_Amt</td>
+<td>FLOAT</td>
+<td>Pay Period  Productive Other Agency Amount</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_ProdOthAgncy_Hrs</td>
+<td>FLOAT</td>
+<td>Pay Period  Productive Other Agency Hours</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_ProdOthFltin_Amt</td>
+<td>FLOAT</td>
+<td>Pay Period Productive Other Float In Amount</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_ProdOthFltin_Hrs</td>
+<td>FLOAT</td>
+<td>Pay Period Productive Other Float In Hours</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_ProdOthFltout_Amt</td>
+<td>FLOAT</td>
+<td>Pay Period Productive Other Float Out Amount</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_ProdOthFltout_Hrs</td>
+<td>FLOAT</td>
+<td>Pay Period Productive Other Float Out Hours</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_ProdOthFt_Amt</td>
+<td>FLOAT</td>
+<td>Pay Period Productive Other Full Time Amount</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_ProdOthFt_Hrs</td>
+<td>FLOAT</td>
+<td>Pay Period Productive Other Full Time Hours</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_ProdOthIntagncy_Amt</td>
+<td>FLOAT</td>
+<td>Pay Period Productive Other Internal Agency Amount</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_ProdOthIntagncy_Hrs</td>
+<td>FLOAT</td>
+<td>Pay Period Productive Other Internal Agency Hours</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_ProdOthPdiem_Amt</td>
+<td>FLOAT</td>
+<td>Pay Period  Productive Other Pdiem Amount</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_ProdOthPdiem_Hrs</td>
+<td>FLOAT</td>
+<td>Pay Period  Productive Other Pdiem Hours</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_ProdOthPool_Amt</td>
+<td>FLOAT</td>
+<td>Pay Period  Productive Other Pool Amount</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_ProdOthPool_Hrs</td>
+<td>FLOAT</td>
+<td>Pay Period  Productive Other Pool Hours</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_ProdOthPt_Amt</td>
+<td>FLOAT</td>
+<td>Pay Period Productive Other Part Time Amount</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_ProdOthPt_Hrs</td>
+<td>FLOAT</td>
+<td>Pay Period Productive Other Part Time Hours</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_ProdRegAgncy_Amt</td>
+<td>FLOAT</td>
+<td>Pay Period  Productive Other Agency Amount</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_ProdRegAgncy_Hrs</td>
+<td>FLOAT</td>
+<td>Pay Period  Productive Other Agency Hours</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_ProdRegFltin_Amt</td>
+<td>FLOAT</td>
+<td>Pay Period Productive Other Float In Amount</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_ProdRegFltin_Hrs</td>
+<td>FLOAT</td>
+<td>Pay Period Productive Other Float In Hours</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_ProdRegFltout_Amt</td>
+<td>FLOAT</td>
+<td>Pay Period Productive Other Float Out Amount</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_ProdRegFltout_Hrs</td>
+<td>FLOAT</td>
+<td>Pay Period Productive Other Float Out Hours</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_ProdRegFt_Amt</td>
+<td>FLOAT</td>
+<td>Pay Period Productive Other Full Time Amount</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_ProdRegFt_Hrs</td>
+<td>FLOAT</td>
+<td>Pay Period Productive Other Full Time Hours</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_ProdRegIntagncy_Amt</td>
+<td>FLOAT</td>
+<td>Pay Period Productive Other Internal Agency Amount</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_ProdRegIntagncy_Hrs</td>
+<td>FLOAT</td>
+<td>Pay Period Productive Other Internal Agency Hours</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_ProdRegPdiem_Amt</td>
+<td>FLOAT</td>
+<td>Pay Period  Productive Other Pdiem Amount</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_ProdRegPdiem_Hrs</td>
+<td>FLOAT</td>
+<td>Pay Period  Productive Other Pdiem Hours</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_ProdRegPool_Amt</td>
+<td>FLOAT</td>
+<td>Pay Period  Productive Other Pool Amount</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_ProdRegPool_Hrs</td>
+<td>FLOAT</td>
+<td>Pay Period  Productive Other Pool Hours</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_ProdRegPt_Amt</td>
+<td>FLOAT</td>
+<td>Pay Period Productive Other Part Time Amount</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hca_ProdRegPt_Hrs</td>
+<td>FLOAT</td>
+<td>Pay Period Productive Other Part Time Hours</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hcakpi_CombTotpaidAgncy_Amt</td>
+<td>FLOAT</td>
+<td>Pay Period Combined Agency Amount Total</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hcakpi_CombTotpaidAgncy_Hrs</td>
+<td>FLOAT</td>
+<td>Pay Period Combined Agency Paid Hours Total</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hcakpi_CombTotpaidFltin_Amt</td>
+<td>FLOAT</td>
+<td>Pay Period Combined Float In Amount Total</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hcakpi_CombTotpaidFltin_Hrs</td>
+<td>FLOAT</td>
+<td>Pay Period Combined Float In Paid Hours Total</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hcakpi_CombTotpaidFt_Amt</td>
+<td>FLOAT</td>
+<td>Pay Period Combined Full Time Amount Total</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hcakpi_CombTotpaidFt_Hrs</td>
+<td>FLOAT</td>
+<td>Pay Period Combined Full Time Paid Hours Total</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hcakpi_CombTotpaidIntagncy_Amt</td>
+<td>FLOAT</td>
+<td>Pay Period Combined Internal Agency Amount Total</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hcakpi_CombTotpaidIntagncy_Hrs</td>
+<td>FLOAT</td>
+<td>Pay Period Combined Internal Agency Hours Total</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hcakpi_CombTotpaidPdiem_Amt</td>
+<td>FLOAT</td>
+<td>Pay Period Combined Per Diem Amount Total</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hcakpi_CombTotpaidPdiem_Hrs</td>
+<td>FLOAT</td>
+<td>Pay Period Combined Per Diem Hours Total</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hcakpi_CombTotpaidPool_Amt</td>
+<td>FLOAT</td>
+<td>Pay Period Combined Pool Amount Total</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hcakpi_CombTotpaidPool_Hrs</td>
+<td>FLOAT</td>
+<td>Pay Period Combined Pool Hours Total</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hcakpi_CombTotpaidPt_Amt</td>
+<td>FLOAT</td>
+<td>Pay Period Combined Part Time Amount Total</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hcakpi_CombTotpaidPt_Hrs</td>
+<td>FLOAT</td>
+<td>Pay Period Combined Part Time Hours Total</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hcakpi_NpTotAgncy_Amt</td>
+<td>FLOAT</td>
+<td>Pay Period Non Productive Agency Amount Total</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hcakpi_NpTotAgncy_Hrs</td>
+<td>FLOAT</td>
+<td>Pay Period Non Productive Agency Hours Total</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hcakpi_NpTotFltin_Amt</td>
+<td>FLOAT</td>
+<td>Pay Period Non Productive Float In Amount Total</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hcakpi_NpTotFltin_Hrs</td>
+<td>FLOAT</td>
+<td>Pay Period Non Productive Float In Hours Total</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hcakpi_NpTotFt_Amt</td>
+<td>FLOAT</td>
+<td>Pay Period Non Productive Full Time Amount Total</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hcakpi_NpTotFt_Hrs</td>
+<td>FLOAT</td>
+<td>Pay Period Non Productive Full Time Hours Total</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hcakpi_NpTotIntagncy_Amt</td>
+<td>FLOAT</td>
+<td>Pay Period Non Productive Internal Agency Amount Total</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hcakpi_NpTotIntagncy_Hrs</td>
+<td>FLOAT</td>
+<td>Pay Period Non Productive Internal Agency Hours Total</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hcakpi_NpTotPdiem_Amt</td>
+<td>FLOAT</td>
+<td>Pay Period Non Productive Per Diem Amount Total</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hcakpi_NpTotPdiem_Hrs</td>
+<td>FLOAT</td>
+<td>Pay Period Non Productive Per Diem Hours Total</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hcakpi_NpTotPool_Amt</td>
+<td>FLOAT</td>
+<td>Pay Period Non Productive Pool Amount Total</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hcakpi_NpTotPool_Hrs</td>
+<td>FLOAT</td>
+<td>Pay Period Non Productive Pool Hours Total</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hcakpi_NpTotPt_Amt</td>
+<td>FLOAT</td>
+<td>Pay Period Non Productive Part Time Amount Total</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hcakpi_NpTotPt_Hrs</td>
+<td>FLOAT</td>
+<td>Pay Period Non Productive Part Time Hours Total</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hcakpi_ProdTotAgncy_Amt</td>
+<td>FLOAT</td>
+<td>Pay Period Productive Agency Amount Total</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hcakpi_ProdTotAgncy_Hrs</td>
+<td>FLOAT</td>
+<td>Pay Period Productive Agency Hours Total</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hcakpi_ProdTotFltin_Amt</td>
+<td>FLOAT</td>
+<td>Pay Period Productive Float In Amount Total</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hcakpi_ProdTotFltin_Hrs</td>
+<td>FLOAT</td>
+<td>Pay Period Productive Float In Hours Total</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hcakpi_ProdTotFt_Amt</td>
+<td>FLOAT</td>
+<td>Pay Period Productive Full Time Amount Total</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hcakpi_ProdTotFt_Hrs</td>
+<td>FLOAT</td>
+<td>Pay Period Productive Full Time Amount Total</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hcakpi_ProdTotIntagncy_Amt</td>
+<td>FLOAT</td>
+<td>Pay Period Productive Internal Agency Amount Total</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hcakpi_ProdTotIntagncy_Hrs</td>
+<td>FLOAT</td>
+<td>Pay Period Productive Internal Agency Hours Total</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hcakpi_ProdTotPdiem_Amt</td>
+<td>FLOAT</td>
+<td>Pay Period Productive Per Diem Amount Total</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hcakpi_ProdTotPdiem_Hrs</td>
+<td>FLOAT</td>
+<td>Pay Period Productive Pool Amount Total</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hcakpi_ProdTotPool_Amt</td>
+<td>FLOAT</td>
+<td>Pay Period Productive Pool Hours Total</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hcakpi_ProdTotPool_Hrs</td>
+<td>FLOAT</td>
+<td>Pay Period Productive Part Time Amount Total</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hcakpi_ProdTotPt_Amt</td>
+<td>FLOAT</td>
+<td>Pay Period Productive Part Time Hours Total</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>M_Hcakpi_ProdTotPt_Hrs</td>
+<td>FLOAT</td>
+<td>Pay Period Productive Per Diem Hours Total</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>updateDtm</td>
+<td>DATETIME</td>
+<td>The UTC date/time stamp of when the row was inserted or updated in BigQuery</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Bus_orgName</td>
+<td>STRING</td>
+<td>Name of the Org Node as entered in WFD (single value)</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Bus_orgFullName</td>
+<td>STRING</td>
+<td>Full Name of the Org Node as entered in WFD (single value)</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Bus_orgDescription</td>
+<td>STRING</td>
+<td>Description of the Org Node as entered in WFD (single value)</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Bus_orgEffectiveDate</td>
+<td>DATE</td>
+<td>Effective date of the current record (Should not be used for joins)</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Bus_orgExpirationDate</td>
+<td>DATE</td>
+<td>Expiration date of the current record (Should not be used for joins)</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Bus_orgTypeId</td>
+<td>INT64</td>
+<td>Org Type(ID) in the Business Structure that this node is configured.</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Bus_orgTypeName</td>
+<td>STRING</td>
+<td>Org Type(Name) in the Business Structure that this node is configured.</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Bus_orgPathTxt</td>
+<td>STRING</td>
+<td>Full path in the business structure down to this node.</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Bus_orgContextName</td>
+<td>STRING</td>
+<td>Can only be ORG or FORECAST</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Bus_orgLocationCategory</td>
+<td>STRING</td>
+<td>Category, Department, or Site,   used for Forecasting (Retail)</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Bus_orgBreak0</td>
+<td>STRING</td>
+<td>Name of Business Structure Location based on Location type mappings in Data Hub configuration.  This is ALWAYS the CATEGORY level of the business structure (For Volume Only)</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Bus_orgBreak1</td>
+<td>STRING</td>
+<td>Name of Business Structure Location based on Location type mappings in Data Hub configuration.  This is ALWAYS the JOB level of the business structure</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Bus_orgBreak2</td>
+<td>STRING</td>
+<td>Name of Business Structure Location based on Location type mappings in Data Hub configuration.</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Bus_orgBreak3</td>
+<td>STRING</td>
+<td>Name of Business Structure Location based on Location type mappings in Data Hub configuration.</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Bus_orgBreak4</td>
+<td>STRING</td>
+<td>Name of Business Structure Location based on Location type mappings in Data Hub configuration.</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Bus_orgBreak5</td>
+<td>STRING</td>
+<td>Name of Business Structure Location based on Location type mappings in Data Hub configuration.</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Bus_orgBreak6</td>
+<td>STRING</td>
+<td>Name of Business Structure Location based on Location type mappings in Data Hub configuration.</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Bus_orgBreak7</td>
+<td>STRING</td>
+<td>Name of Business Structure Location based on Location type mappings in Data Hub configuration.</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Bus_orgBreak8</td>
+<td>STRING</td>
+<td>Name of Business Structure Location based on Location type mappings in Data Hub configuration.</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Bus_orgBreak9</td>
+<td>STRING</td>
+<td>Name of Business Structure Location based on Location type mappings in Data Hub configuration.</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Bus_orgBreak10</td>
+<td>STRING</td>
+<td>Name of Business Structure Location based on Location type mappings in Data Hub configuration.</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Bus_orgBreak11</td>
+<td>STRING</td>
+<td>Name of Business Structure Location based on Location type mappings in Data Hub configuration.</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Bus_orgBreak12</td>
+<td>STRING</td>
+<td>Name of Business Structure Location based on Location type mappings in Data Hub configuration.</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Bus_orgBreak13</td>
+<td>STRING</td>
+<td>Name of Business Structure Location based on Location type mappings in Data Hub configuration.</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Bus_orgBreak14</td>
+<td>STRING</td>
+<td>Name of Business Structure Location based on Location type mappings in Data Hub configuration.</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Bus_orgBreak15</td>
+<td>STRING</td>
+<td>Name of Business Structure Location based on Location type mappings in Data Hub configuration.</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Bus_orgBreak16</td>
+<td>STRING</td>
+<td>Name of Business Structure Location based on Location type mappings in Data Hub configuration.</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Bus_orgBreak17</td>
+<td>STRING</td>
+<td>Name of Business Structure Location based on Location type mappings in Data Hub configuration.</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Bus_orgBreak18</td>
+<td>STRING</td>
+<td>Name of Business Structure Location based on Location type mappings in Data Hub configuration.</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Bus_orgBreak19</td>
+<td>STRING</td>
+<td>Name of Business Structure Location based on Location type mappings in Data Hub configuration.</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Bus_orgBreak20</td>
+<td>STRING</td>
+<td>Name of Business Structure Location based on Location type mappings in Data Hub configuration.</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Bus_orgBreak21</td>
+<td>STRING</td>
+<td>Name of Business Structure Location based on Location type mappings in Data Hub configuration.</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Bus_orgBreak22</td>
+<td>STRING</td>
+<td>Name of Business Structure Location based on Location type mappings in Data Hub configuration.</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Bus_orgBreak23</td>
+<td>STRING</td>
+<td>Name of Business Structure Location based on Location type mappings in Data Hub configuration.</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Bus_orgBreak24</td>
+<td>STRING</td>
+<td>Name of Business Structure Location based on Location type mappings in Data Hub configuration.</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Bus_orgBreak25</td>
+<td>STRING</td>
+<td>Name of Business Structure Location based on Location type mappings in Data Hub configuration.</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Bus_orgBreak0Desc</td>
+<td>STRING</td>
+<td>Description of Business Structure Location based on Location type mappings in Data Hub configuration.  This is ALWAYS the CATEGORY level of the business structure (For Volume Only)</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Bus_orgBreak1Desc</td>
+<td>STRING</td>
+<td>Description of Business Structure Location based on Location type mappings in Data Hub configuration.  This is ALWAYS the JOB level of the business structure</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Bus_orgBreak2Desc</td>
+<td>STRING</td>
+<td>Description of Business Structure Location based on Location type mappings in Data Hub configuration.</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Bus_orgBreak3Desc</td>
+<td>STRING</td>
+<td>Description of Business Structure Location based on Location type mappings in Data Hub configuration.</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Bus_orgBreak4Desc</td>
+<td>STRING</td>
+<td>Description of Business Structure Location based on Location type mappings in Data Hub configuration.</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Bus_orgBreak5Desc</td>
+<td>STRING</td>
+<td>Description of Business Structure Location based on Location type mappings in Data Hub configuration.</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Bus_orgBreak6Desc</td>
+<td>STRING</td>
+<td>Description of Business Structure Location based on Location type mappings in Data Hub configuration.</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Bus_orgBreak7Desc</td>
+<td>STRING</td>
+<td>Description of Business Structure Location based on Location type mappings in Data Hub configuration.</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Bus_orgBreak8Desc</td>
+<td>STRING</td>
+<td>Description of Business Structure Location based on Location type mappings in Data Hub configuration.</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Bus_orgBreak9Desc</td>
+<td>STRING</td>
+<td>Description of Business Structure Location based on Location type mappings in Data Hub configuration.</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Bus_orgBreak10Desc</td>
+<td>STRING</td>
+<td>Description of Business Structure Location based on Location type mappings in Data Hub configuration.</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Bus_orgBreak11Desc</td>
+<td>STRING</td>
+<td>Description of Business Structure Location based on Location type mappings in Data Hub configuration.</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Bus_orgBreak12Desc</td>
+<td>STRING</td>
+<td>Description of Business Structure Location based on Location type mappings in Data Hub configuration.</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Bus_orgBreak13Desc</td>
+<td>STRING</td>
+<td>Description of Business Structure Location based on Location type mappings in Data Hub configuration.</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Bus_orgBreak14Desc</td>
+<td>STRING</td>
+<td>Description of Business Structure Location based on Location type mappings in Data Hub configuration.</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Bus_orgBreak15Desc</td>
+<td>STRING</td>
+<td>Description of Business Structure Location based on Location type mappings in Data Hub configuration.</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Bus_orgBreak16Desc</td>
+<td>STRING</td>
+<td>Description of Business Structure Location based on Location type mappings in Data Hub configuration.</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Bus_orgBreak17Desc</td>
+<td>STRING</td>
+<td>Description of Business Structure Location based on Location type mappings in Data Hub configuration.</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Bus_orgBreak18Desc</td>
+<td>STRING</td>
+<td>Description of Business Structure Location based on Location type mappings in Data Hub configuration.</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Bus_orgBreak19Desc</td>
+<td>STRING</td>
+<td>Description of Business Structure Location based on Location type mappings in Data Hub configuration.</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Bus_orgBreak20Desc</td>
+<td>STRING</td>
+<td>Description of Business Structure Location based on Location type mappings in Data Hub configuration.</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Bus_orgBreak21Desc</td>
+<td>STRING</td>
+<td>Description of Business Structure Location based on Location type mappings in Data Hub configuration.</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Bus_orgBreak22Desc</td>
+<td>STRING</td>
+<td>Description of Business Structure Location based on Location type mappings in Data Hub configuration.</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Bus_orgBreak23Desc</td>
+<td>STRING</td>
+<td>Description of Business Structure Location based on Location type mappings in Data Hub configuration.</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Bus_orgBreak24Desc</td>
+<td>STRING</td>
+<td>Description of Business Structure Location based on Location type mappings in Data Hub configuration.</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Bus_orgBreak25Desc</td>
+<td>STRING</td>
+<td>Description of Business Structure Location based on Location type mappings in Data Hub configuration.</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Person_PersonNumber</td>
+<td>STRING</td>
+<td>Person Number</td>
+<td>PII</td>
+<td></td>
+</tr>
+<tr>
+<td>Person_FullName</td>
+<td>STRING</td>
+<td>Person Number</td>
+<td>PII</td>
+<td></td>
+</tr>
+<tr>
+<td>Person_IsEmployeeSwt</td>
+<td>BOOLEAN</td>
+<td>Full Name</td>
+<td>PII</td>
+<td></td>
+</tr>
+<tr>
+<td>Person_IsManagerSwt</td>
+<td>BOOLEAN</td>
+<td>Boolean indicator whether or not this person is a employee</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Person_HourlyRate</td>
+<td>FLOAT</td>
+<td>Boolean indicator whether or not this person is a manager</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Person_HireDate</td>
+<td>DATE</td>
+<td>Hourly Rate</td>
+<td>Confidential</td>
+<td></td>
+</tr>
+<tr>
+<td>Person_SeniorityDate</td>
+<td>DATE</td>
+<td>Hire Date</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Person_SupervisorPersonNumber</td>
+<td>STRING</td>
+<td>Seniority Date</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Person_SupervisorFullName</td>
+<td>STRING</td>
+<td>Supervisor Person Nunber</td>
+<td>PII</td>
+<td></td>
+</tr>
+<tr>
+<td>Person_EmploymentTerm</td>
+<td>STRING</td>
+<td>Supervisor Name</td>
+<td>PII</td>
+<td></td>
+</tr>
+<tr>
+<td>Person_WorkerType</td>
+<td>STRING</td>
+<td>Employment Term</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Person_ExpectedDailyHours</td>
+<td>FLOAT</td>
+<td>Worker Type</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Person_PrimaryLaborCategory</td>
+<td>STRING</td>
+<td>Primary Labor Category</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Person_PrimaryLaborEntryName1</td>
+<td>STRING</td>
+<td>Primary Labor Entry Name 1</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Person_PrimaryLaborEntryName2</td>
+<td>STRING</td>
+<td>Primary Labor Entry Name 2</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Person_PrimaryLaborEntryName3</td>
+<td>STRING</td>
+<td>Primary Labor Entry Name 3</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Person_PrimaryLaborEntryName4</td>
+<td>STRING</td>
+<td>Primary Labor Entry Name 4</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Person_PrimaryLaborEntryName5</td>
+<td>STRING</td>
+<td>Primary Labor Entry Name 5</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Person_PrimaryLaborEntryName6</td>
+<td>STRING</td>
+<td>Primary Labor Entry Name 6</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Person_primaryOrgPathTxt</td>
+<td>STRING</td>
+<td>Primary Org Path</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Person_employmentStatus</td>
+<td>STRING</td>
+<td>Employment Status</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Person_timeEntryType</td>
+<td>STRING</td>
+<td>Time entry type</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Person_shiftCode</td>
+<td>STRING</td>
+<td>Shift Code</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Person_birthDate</td>
+<td>DATE</td>
+<td>Birth date</td>
+<td>Confidential</td>
+<td></td>
+</tr>
+<tr>
+<td>Person_fullTimeStandardHoursQuantity</td>
+<td>FLOAT</td>
+<td>FT Standard Hours Qty</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Person_FullTimeEquivalencyPercent</td>
+<td>FLOAT</td>
+<td>FTE Percent</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Person_ProExternalId</td>
+<td>STRING</td>
+<td>Primary Org Path</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Person_contactData</td>
+<td>STRING</td>
+<td>Contact information</td>
+<td>PII</td>
+<td></td>
+</tr>
+<tr>
+<td>Person_zipCode</td>
+<td>STRING</td>
+<td>Zip Code</td>
+<td>PII</td>
+<td></td>
+</tr>
+<tr>
+<td>Person_state</td>
+<td>STRING</td>
+<td>State</td>
+<td>PII</td>
+<td></td>
+</tr>
+<tr>
+<td>Person_city</td>
+<td>STRING</td>
+<td>City</td>
+<td>PII</td>
+<td></td>
+</tr>
+<tr>
+<td>Person_country</td>
+<td>STRING</td>
+<td>Country</td>
+<td>PII</td>
+<td></td>
+</tr>
+<tr>
+<td>BusPri_primaryOrgId</td>
+<td>INT64</td>
+<td>Primary Org Id</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>BusPri_PrimaryOrgName</td>
+<td>STRING</td>
+<td>Primary Org Name</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>BusPri_primaryOrgFullName</td>
+<td>STRING</td>
+<td>Primary Org Full Name</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>BusPri_primaryOrgDescription</td>
+<td>STRING</td>
+<td>Description of Business Structure Location based on Location type mappings in Data Hub configuration.</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>BusPri_primaryOrgBreak0</td>
+<td>STRING</td>
+<td>Name of Business Structure Location based on Location type mappings in Data Hub configuration.</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>BusPri_primaryOrgBreak1</td>
+<td>STRING</td>
+<td>Name of Business Structure Location based on Location type mappings in Data Hub configuration.</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>BusPri_primaryOrgBreak2</td>
+<td>STRING</td>
+<td>Name of Business Structure Location based on Location type mappings in Data Hub configuration.</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>BusPri_primaryOrgBreak3</td>
+<td>STRING</td>
+<td>Name of Business Structure Location based on Location type mappings in Data Hub configuration.</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>BusPri_primaryOrgBreak4</td>
+<td>STRING</td>
+<td>Name of Business Structure Location based on Location type mappings in Data Hub configuration.</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>BusPri_primaryOrgBreak5</td>
+<td>STRING</td>
+<td>Name of Business Structure Location based on Location type mappings in Data Hub configuration.</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>BusPri_primaryOrgBreak6</td>
+<td>STRING</td>
+<td>Name of Business Structure Location based on Location type mappings in Data Hub configuration.</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>BusPri_primaryOrgBreak7</td>
+<td>STRING</td>
+<td>Name of Business Structure Location based on Location type mappings in Data Hub configuration.</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>BusPri_primaryOrgBreak8</td>
+<td>STRING</td>
+<td>Name of Business Structure Location based on Location type mappings in Data Hub configuration.</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>BusPri_primaryOrgBreak9</td>
+<td>STRING</td>
+<td>Name of Business Structure Location based on Location type mappings in Data Hub configuration.</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>BusPri_primaryOrgBreak10</td>
+<td>STRING</td>
+<td>Name of Business Structure Location based on Location type mappings in Data Hub configuration.</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>BusPri_primaryOrgBreak11</td>
+<td>STRING</td>
+<td>Name of Business Structure Location based on Location type mappings in Data Hub configuration.</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>BusPri_primaryOrgBreak12</td>
+<td>STRING</td>
+<td>Name of Business Structure Location based on Location type mappings in Data Hub configuration.</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>BusPri_primaryOrgBreak13</td>
+<td>STRING</td>
+<td>Name of Business Structure Location based on Location type mappings in Data Hub configuration.</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>BusPri_primaryOrgBreak14</td>
+<td>STRING</td>
+<td>Name of Business Structure Location based on Location type mappings in Data Hub configuration.</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>BusPri_primaryOrgBreak15</td>
+<td>STRING</td>
+<td>Name of Business Structure Location based on Location type mappings in Data Hub configuration.</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>BusPri_primaryOrgBreak16</td>
+<td>STRING</td>
+<td>Name of Business Structure Location based on Location type mappings in Data Hub configuration.</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>BusPri_primaryOrgBreak17</td>
+<td>STRING</td>
+<td>Name of Business Structure Location based on Location type mappings in Data Hub configuration.</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>BusPri_primaryOrgBreak18</td>
+<td>STRING</td>
+<td>Name of Business Structure Location based on Location type mappings in Data Hub configuration.</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>BusPri_primaryOrgBreak19</td>
+<td>STRING</td>
+<td>Name of Business Structure Location based on Location type mappings in Data Hub configuration.</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>BusPri_primaryOrgBreak20</td>
+<td>STRING</td>
+<td>Name of Business Structure Location based on Location type mappings in Data Hub configuration.</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Person_CustomText1</td>
+<td>STRING</td>
+<td>Custom Text</td>
+<td>PII</td>
+<td></td>
+</tr>
+<tr>
+<td>Person_CustomText2</td>
+<td>STRING</td>
+<td>Custom Text</td>
+<td>PII</td>
+<td></td>
+</tr>
+<tr>
+<td>Person_CustomText3</td>
+<td>STRING</td>
+<td>Custom Text</td>
+<td>PII</td>
+<td></td>
+</tr>
+<tr>
+<td>Person_CustomText4</td>
+<td>STRING</td>
+<td>Custom Text</td>
+<td>PII</td>
+<td></td>
+</tr>
+<tr>
+<td>Person_CustomText5</td>
+<td>STRING</td>
+<td>Custom Text</td>
+<td>PII</td>
+<td></td>
+</tr>
+<tr>
+<td>Person_CustomText6</td>
+<td>STRING</td>
+<td>Custom Text</td>
+<td>PII</td>
+<td></td>
+</tr>
+<tr>
+<td>Person_CustomText7</td>
+<td>STRING</td>
+<td>Custom Text</td>
+<td>PII</td>
+<td></td>
+</tr>
+<tr>
+<td>Person_CustomText8</td>
+<td>STRING</td>
+<td>Custom Text</td>
+<td>PII</td>
+<td></td>
+</tr>
+<tr>
+<td>Person_CustomText9</td>
+<td>STRING</td>
+<td>Custom Text</td>
+<td>PII</td>
+<td></td>
+</tr>
+<tr>
+<td>Person_CustomText10</td>
+<td>STRING</td>
+<td>Custom Text</td>
+<td>PII</td>
+<td></td>
+</tr>
+<tr>
+<td>Person_CustomText11</td>
+<td>STRING</td>
+<td>Custom Text</td>
+<td>PII</td>
+<td></td>
+</tr>
+<tr>
+<td>Person_CustomText12</td>
+<td>STRING</td>
+<td>Custom Text</td>
+<td>PII</td>
+<td></td>
+</tr>
+<tr>
+<td>Person_CustomText13</td>
+<td>STRING</td>
+<td>Custom Text</td>
+<td>PII</td>
+<td></td>
+</tr>
+<tr>
+<td>Person_CustomText14</td>
+<td>STRING</td>
+<td>Custom Text</td>
+<td>PII</td>
+<td></td>
+</tr>
+<tr>
+<td>Person_CustomText15</td>
+<td>STRING</td>
+<td>Custom Text</td>
+<td>PII</td>
+<td></td>
+</tr>
+<tr>
+<td>Person_CustomText16</td>
+<td>STRING</td>
+<td>Custom Text</td>
+<td>PII</td>
+<td></td>
+</tr>
+<tr>
+<td>Person_CustomText17</td>
+<td>STRING</td>
+<td>Custom Text</td>
+<td>PII</td>
+<td></td>
+</tr>
+<tr>
+<td>Person_CustomText18</td>
+<td>STRING</td>
+<td>Custom Text</td>
+<td>PII</td>
+<td></td>
+</tr>
+<tr>
+<td>Person_CustomText19</td>
+<td>STRING</td>
+<td>Custom Text</td>
+<td>PII</td>
+<td></td>
+</tr>
+<tr>
+<td>Person_CustomText20</td>
+<td>STRING</td>
+<td>Custom Text</td>
+<td>PII</td>
+<td></td>
+</tr>
+<tr>
+<td>Person_CustomText21</td>
+<td>STRING</td>
+<td>Custom Text</td>
+<td>PII</td>
+<td></td>
+</tr>
+<tr>
+<td>Person_CustomText22</td>
+<td>STRING</td>
+<td>Custom Text</td>
+<td>PII</td>
+<td></td>
+</tr>
+<tr>
+<td>Person_CustomText23</td>
+<td>STRING</td>
+<td>Custom Text</td>
+<td>PII</td>
+<td></td>
+</tr>
+<tr>
+<td>Person_CustomText24</td>
+<td>STRING</td>
+<td>Custom Text</td>
+<td>PII</td>
+<td></td>
+</tr>
+<tr>
+<td>Person_CustomText25</td>
+<td>STRING</td>
+<td>Custom Text</td>
+<td>PII</td>
+<td></td>
+</tr>
+<tr>
+<td>Person_CustomText26</td>
+<td>STRING</td>
+<td>Custom Text</td>
+<td>PII</td>
+<td></td>
+</tr>
+<tr>
+<td>Person_CustomText27</td>
+<td>STRING</td>
+<td>Custom Text</td>
+<td>PII</td>
+<td></td>
+</tr>
+<tr>
+<td>Person_CustomText28</td>
+<td>STRING</td>
+<td>Custom Text</td>
+<td>PII</td>
+<td></td>
+</tr>
+<tr>
+<td>Person_CustomText29</td>
+<td>STRING</td>
+<td>Custom Text</td>
+<td>PII</td>
+<td></td>
+</tr>
+<tr>
+<td>Person_CustomText30</td>
+<td>STRING</td>
+<td>Custom Text</td>
+<td>PII</td>
+<td></td>
+</tr>
+<tr>
+<td>Date_dayOfWkNbr</td>
+<td>INT64</td>
+<td>Day of Week</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Date_dayOfMoNbr</td>
+<td>INT64</td>
+<td>Day of Month</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Date_dayOfQtrNbr</td>
+<td>INT64</td>
+<td>Day of Quarter</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Date_dayOfYrNbr</td>
+<td>INT64</td>
+<td>Day of Year</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Date_wkOfYrNbr</td>
+<td>INT64</td>
+<td>Week of Year</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Date_moOfYrNbr</td>
+<td>INT64</td>
+<td>Month of Year</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Date_qtrOfYrNbr</td>
+<td>INT64</td>
+<td>Quarter of Year</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Date_yrNbr</td>
+<td>INT64</td>
+<td>Year</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Date_dayNam</td>
+<td>STRING</td>
+<td>Day of Week i.e. Sunday, Monday</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Date_moNam</td>
+<td>STRING</td>
+<td>Month Name</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Date_qtrNam</td>
+<td>STRING</td>
+<td>Quarter Name</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Date_yrMoNbr</td>
+<td>INT64</td>
+<td>Year/Month</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Date_lastDayOfWkSwt</td>
+<td>BOOLEAN</td>
+<td>Boolean indicator where or not this is Last Day of Week</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Date_lastDayOfMoSwt</td>
+<td>BOOLEAN</td>
+<td>Boolean indicator where or not this is Last Day of Month</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Date_lastDayOfQtrSwt</td>
+<td>BOOLEAN</td>
+<td>Boolean indicator where or not this is Last Day of Quarter</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Date_lastDayOFYrSwt</td>
+<td>BOOLEAN</td>
+<td>Boolean indicator where or not this is Last Day of Year</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Date_wkEndSwt</td>
+<td>BOOLEAN</td>
+<td>Boolean indicator where or not this is week end</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Date_FsclDayOfWkNbr</td>
+<td>INT64</td>
+<td>Fisccal Day of Week</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Date_FsclDayOfMoNbr</td>
+<td>INT64</td>
+<td>Fiscal Day of Month</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Date_FsclDayOfQtrNbr</td>
+<td>INT64</td>
+<td>Fiscal Day of Quarter</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Date_FsclDayOfYrNbr</td>
+<td>INT64</td>
+<td>Fiscal Day of Year</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Date_FsclWkOfYrNbr</td>
+<td>INT64</td>
+<td>Fiscal Week of Year</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Date_FsclMoOfYrNbr</td>
+<td>INT64</td>
+<td>Fiscal Month of Year</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Date_FsclQtrOfYrNbr</td>
+<td>INT64</td>
+<td>Fiscal Quarter of Year</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Date_FsclYrNbr</td>
+<td>INT64</td>
+<td>Fiscal Year Number</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Date_FsclMoNam</td>
+<td>STRING</td>
+<td>Fiscal Month Name</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Date_FsclQtrNam</td>
+<td>STRING</td>
+<td>Fiscal Quarter Name</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Date_FsclYrMoNbr</td>
+<td>STRING</td>
+<td>Fiscal Year/Month</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Date_FsclLastDayOfWkSwt</td>
+<td>BOOLEAN</td>
+<td>Boolean indicator where or not this is Fiscal Last Day of Week</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Date_FsclLastDayOfMoSwt</td>
+<td>BOOLEAN</td>
+<td>Boolean indicator where or not this is Fiscal Last Day of Month</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Date_FsclLastDayOfQtrSwt</td>
+<td>BOOLEAN</td>
+<td>Boolean indicator where or not this is Fiscal Last Day of Quarter</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Date_FsclLastDayOfYrSwt</td>
+<td>BOOLEAN</td>
+<td>Boolean indicator where or not this is Fiscal Last Day of Year</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>stp_Today</td>
+<td>BOOLEAN</td>
+<td>Boolean indicator where or not this is Today</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>stp_Yesterday</td>
+<td>BOOLEAN</td>
+<td>Boolean indicator where or not this is Yesterday</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>stp_Last30Days</td>
+<td>BOOLEAN</td>
+<td>Boolean indicator where or not this is Last 30 Days</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>stp_Last13Weeks</td>
+<td>BOOLEAN</td>
+<td>Boolean indicator where or not this is Last 13 weeks</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>stp_LastMonth</td>
+<td>BOOLEAN</td>
+<td>Boolean indicator where or not this is Last Month</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>stp_LastQuarter</td>
+<td>BOOLEAN</td>
+<td>Boolean indicator where or not this is Last Quarter</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>stp_CurrentQuarter</td>
+<td>BOOLEAN</td>
+<td>Boolean indicator where or not this is Current Quarter</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>stp_CurrentMonth</td>
+<td>BOOLEAN</td>
+<td>Boolean indicator where or not this is Current Month</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>stp_NextQuarter</td>
+<td>BOOLEAN</td>
+<td>Boolean indicator where or not this is Next Quarter</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>stp_NextMonth</td>
+<td>BOOLEAN</td>
+<td>Boolean indicator where or not this is Next Month</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>stp_CurrentYear</td>
+<td>BOOLEAN</td>
+<td>Boolean indicator where or not this is Current Year</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>stp_LastYear</td>
+<td>BOOLEAN</td>
+<td>Boolean indicator where or not this is Last Year</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>stp_YTD</td>
+<td>BOOLEAN</td>
+<td>Boolean indicator where or not this is Year to Date</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>stp_QTD</td>
+<td>BOOLEAN</td>
+<td>Boolean indicator where or not this is Quarter to Date</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>stp_MTD</td>
+<td>BOOLEAN</td>
+<td>Boolean indicator where or not this is Month to Date</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>stp_WTD</td>
+<td>BOOLEAN</td>
+<td>Boolean indicator where or not this is Week to Date</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>stp_CurrentWeek</td>
+<td>BOOLEAN</td>
+<td>Boolean indicator where or not this is Current Week</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>stp_NextWeek</td>
+<td>BOOLEAN</td>
+<td>Boolean indicator where or not this is Next Week</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>stp_LastWeek</td>
+<td>BOOLEAN</td>
+<td>Boolean indicator where or not this is Last Week</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>stp_Last6MTD</td>
+<td>BOOLEAN</td>
+<td>Boolean indicator where or not this is Last 6 Months to Date</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>stp_TwoWeeksOut</td>
+<td>BOOLEAN</td>
+<td>Boolean indicator where or not this is 2 weeks out</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>stp_Last8Weeks</td>
+<td>BOOLEAN</td>
+<td>Boolean indicator where or not this is Last 8 Weeks</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>stp_MonthBeforeLast</td>
+<td>BOOLEAN</td>
+<td>Boolean indicator where or not this is Month before Last</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>stp_ThreeWeeksOut</td>
+<td>BOOLEAN</td>
+<td>Boolean indicator where or not this is 3 weeks out</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>stp_FsclLast13Weeks</td>
+<td>BOOLEAN</td>
+<td>Boolean indicator where or not this is Fiscal Last 13 weeks</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>stp_FsclLastMonth</td>
+<td>BOOLEAN</td>
+<td>Boolean indicator where or not this is Fiscal Last Month</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>stp_FsclLastQuarter</td>
+<td>BOOLEAN</td>
+<td>Boolean indicator where or not this is Fiscal Last Quarter</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>stp_FsclCurrentQuarter</td>
+<td>BOOLEAN</td>
+<td>Boolean indicator where or not this is Fiscal Current Quarter</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>stp_FsclCurrentMonth</td>
+<td>BOOLEAN</td>
+<td>Boolean indicator where or not this is Fiscal Curent Month</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>stp_FsclNextQuarter</td>
+<td>BOOLEAN</td>
+<td>Boolean indicator where or not this is Fiscal Next Quarter</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>stp_FsclNextMonth</td>
+<td>BOOLEAN</td>
+<td>Boolean indicator where or not this is Fiscal Next Month</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>stp_FsclCurrentYear</td>
+<td>BOOLEAN</td>
+<td>Boolean indicator where or not this is Fiscal Current Year</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>stp_FsclLastYear</td>
+<td>BOOLEAN</td>
+<td>Boolean indicator where or not this is Fiscal Last Year</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>stp_FsclYTD</td>
+<td>BOOLEAN</td>
+<td>Boolean indicator where or not this is Fiscal Year to Date</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>stp_FsclQTD</td>
+<td>BOOLEAN</td>
+<td>Boolean indicator where or not this is Fiscal Quarter to Date</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>stp_FsclMTD</td>
+<td>BOOLEAN</td>
+<td>Boolean indicator where or not this is Fiscal Month to Date</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>stp_FsclWTD</td>
+<td>BOOLEAN</td>
+<td>Boolean indicator where or not this is Fiscal Week to Date</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>stp_FsclCurrentWeek</td>
+<td>BOOLEAN</td>
+<td>Boolean indicator where or not this is Fiscal Current Week</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>stp_FsclNextWeek</td>
+<td>BOOLEAN</td>
+<td>Boolean indicator where or not this is Fiscal Next Week</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>stp_FsclLastWeek</td>
+<td>BOOLEAN</td>
+<td>Boolean indicator where or not this is Fiscal Last Week</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>stp_FsclLast6MTD</td>
+<td>BOOLEAN</td>
+<td>Boolean indicator where or not this is Fiscal Last 6 Month to Date</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>stp_FsclTwoWeeksOut</td>
+<td>BOOLEAN</td>
+<td>Boolean indicator where or not this is Fiscal Year 2 Weeks Out</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>stp_FsclLast8Weeks</td>
+<td>BOOLEAN</td>
+<td>Boolean indicator where or not this is Fiscal Last 8 weeks</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>stp_FsclMonthBeforeLast</td>
+<td>BOOLEAN</td>
+<td>Boolean indicator where or not this is Fiscal Month before Last</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>stp_FsclThreeWeeksOut</td>
+<td>BOOLEAN</td>
+<td>Boolean indicator where or not this is Fiscal Year 3 Weeks Out</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>PP_startDate</td>
+<td>DATE</td>
+<td>Pay Period start date</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>PP_endDate</td>
+<td>DATE</td>
+<td>Pay Period end date</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>PP_payPeriod</td>
+<td>STRING</td>
+<td>Pay Period name</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>PP_payPeriodOffset</td>
+<td>INT64</td>
+<td>Number of pay period back or forward from current pay period</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>WU_WorkUnitCode</td>
+<td>STRING</td>
+<td>Work Unit Code</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>WU_WorkUnitName</td>
+<td>STRING</td>
+<td>Work Unit Name</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>WU_CaregiverSwt</td>
+<td>INT64</td>
+<td>Work Unit Caregiver Switch</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>WU_WorkWeekFTEHours</td>
+<td>FLOAT</td>
+<td>FTE Hours in Work Week</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>WU_ServiceLine</td>
+<td>STRING</td>
+<td>Work Unit Service Line</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>WU_UnitOfService</td>
+<td>STRING</td>
+<td>Work Unit Unit of Service</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>WU_PayRuleId</td>
+<td>INT64</td>
+<td>The ID of a pay rule join with vPayRules</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>WU_PayRuleName</td>
+<td>STRING</td>
+<td>Pay Rule Name</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>WU_WorkUnitTypeId</td>
+<td>INT64</td>
+<td>The ID of the work unit type</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>WU_WorkUnitTypeName</td>
+<td>STRING</td>
+<td>Work Unit Type Name</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>WU_WorkGroupId</td>
+<td>INT64</td>
+<td>The ID of the work group</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>WU_WorkGroupName</td>
+<td>STRING</td>
+<td>Work Group Name</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>WU_WorkGroupCode</td>
+<td>STRING</td>
+<td>Work Group Code</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>BusWU_OrgId</td>
+<td>INT64</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>BusWU_OrgName</td>
+<td>STRING</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>BusWU_OrgFullName</td>
+<td>STRING</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>BusWU_OrgDescription</td>
+<td>STRING</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>BusWU_OrgBreak0</td>
+<td>STRING</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>BusWU_OrgBreak1</td>
+<td>STRING</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>BusWU_OrgBreak2</td>
+<td>STRING</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>BusWU_OrgBreak3</td>
+<td>STRING</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>BusWU_OrgBreak4</td>
+<td>STRING</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>BusWU_OrgBreak5</td>
+<td>STRING</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>BusWU_OrgBreak6</td>
+<td>STRING</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>BusWU_OrgBreak7</td>
+<td>STRING</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>BusWU_OrgBreak8</td>
+<td>STRING</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>BusWU_OrgBreak9</td>
+<td>STRING</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>BusWU_OrgBreak10</td>
+<td>STRING</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>BusWU_OrgBreak11</td>
+<td>STRING</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>BusWU_OrgBreak12</td>
+<td>STRING</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>BusWU_OrgBreak13</td>
+<td>STRING</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>BusWU_OrgBreak14</td>
+<td>STRING</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>BusWU_OrgBreak15</td>
+<td>STRING</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>BusWU_OrgBreak16</td>
+<td>STRING</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>BusWU_OrgBreak17</td>
+<td>STRING</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>BusWU_OrgBreak18</td>
+<td>STRING</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>BusWU_OrgBreak19</td>
+<td>STRING</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>BusWU_OrgBreak20</td>
+<td>STRING</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>WU_OrgID_2</td>
+<td>INT64</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>WU_OrgID_3</td>
+<td>INT64</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>WU_OrgID_4</td>
+<td>INT64</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>WU_OrgID_5</td>
+<td>INT64</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>WU_OrgID_6</td>
+<td>INT64</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>WU_OrgID_7</td>
+<td>INT64</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>WU_OrgID_8</td>
+<td>INT64</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>WU_OrgID_9</td>
+<td>INT64</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>WU_OrgID_10</td>
+<td>INT64</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>
