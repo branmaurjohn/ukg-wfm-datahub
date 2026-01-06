@@ -25,3 +25,6 @@ nav:
       - Accruals: domains/accruals.md
       - ESS / Workflow: domains/ess.md
       - Forecasting: domains/forecasting.md
+  - Use Cases:
+      - Index: use-cases/index.md
+      - Overtime Utilization: use-cases/overtime-utilization.md
