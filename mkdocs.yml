@@ -7,5 +7,7 @@ nav:
   - Home: index.md
   - Getting Started:
       - Quickstart: getting-started/quickstart.md
-  - Concepts:
+    - Concepts:
       - Public Safety Rules: concepts/public-safety.md
+      - Grain and Keys: concepts/grain-and-keys.md
+      - Detail vs Summary: concepts/detail-vs-summary.md
