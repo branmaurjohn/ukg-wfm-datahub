@@ -21,3 +21,7 @@ nav:
       - Org Structure: domains/org-structure.md
       - Timecard: domains/timecard.md
       - Schedule: domains/schedule.md
+      - Totals: domains/totals.md
+      - Accruals: domains/accruals.md
+      - ESS / Workflow: domains/ess.md
+      - Forecasting: domains/forecasting.md
