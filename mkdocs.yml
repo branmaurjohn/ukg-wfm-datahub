@@ -5,9 +5,9 @@ plugins:
   - search
 nav:
   - Home: index.md
-  - Report Catalog: report-catalog.md
   - Getting Started:
       - Quickstart: getting-started/quickstart.md
+  - Report Catalog: report-catalog.md
   - Concepts:
       - Public Safety Rules: concepts/public-safety.md
       - Grain and Keys: concepts/grain-and-keys.md
