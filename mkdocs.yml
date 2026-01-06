@@ -29,6 +29,11 @@ nav:
   - Use Cases:
       - Index: use-cases/index.md
       - Overtime Utilization: use-cases/overtime-utilization.md
+  - Roles:
+      - Analyst: roles/analyst.md
+      - Engineer: roles/engineer.md
+      - Architect: roles/architect.md
+      - Data Scientist: roles/data-scientist.md
   - Templates:
       - KPI Contract: templates/kpi-contract.md
       - Report Spec: templates/report-spec.md
